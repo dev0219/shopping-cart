@@ -1,19 +1,28 @@
-
 /* The Modal (background) */
 .modal {
-  display: block; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 60px; /* Location of the box */
+  display: block;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 60px;
+  /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+
 }
+
 .image-wrapper {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -23,8 +32,7 @@
   border: 1px solid #ebebeb;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex
-;
+  display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
   height: 311px;
@@ -47,33 +55,48 @@
   margin: auto;
   border-radius: 7px;
 }
+
 .modal-content .discounts__card-brand {
   margin-top: 8px;
 }
+
 .modal-content .discounts__card-expiration {
   color: #686666;
   margin: 10px 0 16px;
 }
-.sidebar-item> .shopping-list-item__deals-applied-toggle .arrow-icon,.sidebar-item> .shopping-list-item__deals-available-toggle .arrow-icon {
+
+.sidebar-item>.shopping-list-item__deals-applied-toggle .arrow-icon,
+.sidebar-item>.shopping-list-item__deals-available-toggle .arrow-icon {
   transform: rotate(-90deg);
 }
-.sidebar-item.open > .shopping-list-item__deals-applied-toggle .arrow-icon,.sidebar-item.open> .shopping-list-item__deals-available-toggle .arrow-icon {
+
+.sidebar-item.open>.shopping-list-item__deals-applied-toggle .arrow-icon,
+.sidebar-item.open>.shopping-list-item__deals-available-toggle .arrow-icon {
   transform: rotate(90deg);
 }
+
 section {
   padding: 0% !important;
 }
- .modal-content .discounts__card-save-amount {
+
+.modal-content .discounts__card-save-amount {
   font-size: 28px !important;
   font-weight: 600 !important;
   margin: 8px 0 12px !important;
 }
- .modal-content .discounts__card-brand, .modal-content .discounts__card-description, .modal-content .discounts__card-expiration,  .modal-content .discounts__card-must-buy-limit,  .modal-content .discounts__card-save-amount,  .modal-content .discounts__card-type {
+
+.modal-content .discounts__card-brand,
+.modal-content .discounts__card-description,
+.modal-content .discounts__card-expiration,
+.modal-content .discounts__card-must-buy-limit,
+.modal-content .discounts__card-save-amount,
+.modal-content .discounts__card-type {
   color: #000;
   font-size: 14px;
   font-weight: 300;
   line-height: 125%;
 }
+
 .modal-content .add-button {
   border: 1px solid #c9c9c9;
   border-radius: 4px;
@@ -84,17 +107,20 @@ section {
   margin-bottom: 16px;
   width: 120px;
 }
+
 .modal-content .couponPickupDetails__detail .details-header {
   font-size: 18px;
   font-weight: 500;
   line-height: 125%;
   margin-bottom: 8px;
 }
+
 .modal-content .couponPickupDetails__detail .disclaimer-text {
   font-size: 14px;
   font-weight: 400;
   line-height: 125%;
 }
+
 .modal-content .couponPickupDetails__detail .link-button {
   background: transparent;
   border: none;
@@ -105,6 +131,7 @@ section {
   padding: 0;
   text-align: left;
 }
+
 .modal-content .couponPickupDetails__detail {
   max-width: 588px;
 }
@@ -116,9 +143,9 @@ section {
   font-size: 35px;
   font-weight: bold;
   width: 100%;
-    display: flex;
-    justify-content: end;
-    align-items: end;
+  display: flex;
+  justify-content: end;
+  align-items: end;
 }
 
 .close:hover,
@@ -136,6 +163,7 @@ ul li {
 input[type="checkbox"] {
   transform: scale(1.5);
 }
+
 .dg-shopping-list .shopping-list__unchecked-item-list {
   list-style: none;
   margin-bottom: 16px;
@@ -163,33 +191,42 @@ input[type="checkbox"] {
   .--center-all {
     display: flex !important;
   }
+
   .dg-shopping-list .shopping-list-item {
-      margin-bottom: 24px;
+    margin-bottom: 24px;
   }
+
   .dg-shopping-list .shopping-list__button {
     font-size: 13px;
+  }
+
+  .dg-shopping-list .shopping-list-item__deals-applied-toggle-label,
+  .dg-shopping-list .shopping-list-item__deals-available-toggle-label {
+    font-weight: 600;
+  }
+
+  .dg-shopping-list .product-deal {
+    width: calc(50% - 16px) !important;
+  }
+
+  .shopping-lists {
+    width: 65%;
+  }
+
+  .shopping-list-summary {
+    margin-top: 0px;
+    width: 30%;
+  }
 }
-.dg-shopping-list .shopping-list-item__deals-applied-toggle-label, .dg-shopping-list .shopping-list-item__deals-available-toggle-label {
-  font-weight: 600;
-}
-.dg-shopping-list .product-deal {
-  width: calc(50% - 16px) !important;
-}
-.shopping-lists {
-  width: 65%;
-}
-.shopping-list-summary {
-  margin-top: 0px;
-  width: 30%;
-}
-}
+
 @media screen and (min-width: 992px) {
   .dg-shopping-list .shopping-list-item__toolbar {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
+  }
 }
-}
+
 .dg-shopping-list .shopping-list-item__image {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
@@ -197,7 +234,9 @@ input[type="checkbox"] {
   margin-left: 8px;
   max-width: 96px;
 }
-img, svg {
+
+img,
+svg {
   vertical-align: middle;
 }
 
@@ -207,24 +246,29 @@ img, svg {
   height: 60px;
   max-width: 224px;
 }
+
 .dg-shopping-list .shopping-list-item {
   margin-bottom: 16px;
 }
+
 @media screen and (min-width: 768px) {
   .dg-shopping-list .shopping-list-item__desc {
     flex-basis: 90%;
     max-width: 519px;
   }
+
   .dg-shopping-list .shopping-list-item__price-wrapper {
-      -ms-flex-preferred-size: 30%;
-      flex-basis: 30%;
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%;
   }
+
   .dg-shopping-list .shopping-list-item__image {
     margin-left: 8px;
-}
-.dg-shopping-list .order-summary {
-  margin-bottom: 24px;
-}
+  }
+
+  .dg-shopping-list .order-summary {
+    margin-bottom: 24px;
+  }
 }
 
 .dg-shopping-list .shopping-list-item__price-wrapper span {
@@ -240,6 +284,7 @@ img, svg {
 .dg-shopping-list .shopping-list-item__edit-form .increment-decrement {
   min-width: 96px;
 }
+
 .dg-shopping-list .shopping-list-item__edit-form .counter {
   width: 96px;
 }
@@ -274,14 +319,17 @@ img, svg {
 .dg-shopping-list .shopping-list-item__action-wrapper-counter .counter {
   min-width: 96px;
 }
-.counter, .counter .counter-button {
+
+.counter,
+.counter .counter-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 
 }
+
 .counter {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -306,6 +354,7 @@ img, svg {
   padding: 0;
   width: 100%;
 }
+
 .sr-only {
   clip: rect(1px, 1px, 1px, 1px) !important;
   border: 0 !important;
@@ -319,10 +368,12 @@ img, svg {
   white-space: nowrap !important;
   width: 1px !important;
 }
+
 .dg-shopping-list .shopping-list-item .button--disabled {
   color: #757575;
   cursor: auto;
 }
+
 .dg-shopping-list .shopping-list-item__action-wrapper-counter-movetocart {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -337,7 +388,9 @@ img, svg {
   margin-left: 12px;
   margin-top: 12px;
 }
-.input-wrapper label, .select-wrapper label {
+
+.input-wrapper label,
+.select-wrapper label {
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0;
@@ -345,37 +398,44 @@ img, svg {
   margin: 0;
   text-align: left;
 }
+
 .dg-shopping-list .shopping-list-item__estimate-label {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 96px;
   flex: 0 0 96px;
   margin-left: 16px;
 }
+
 .dg-shopping-list .shopping-list-item__estimate-label .shopping-list-item__price-input-error {
   color: #ed021e;
   font-size: 12px;
   font-weight: 500;
   margin-top: 4px;
 }
+
 .dg-shopping-list .shopping-list-item__name-input-error {
   color: #ed021e;
   font-size: 12px;
   font-weight: 500;
   margin-top: 4px;
 }
+
 .dg-shopping-list .shopping-list-item__name-label {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   max-width: 519px;
 }
+
 .dg-shopping-list .shopping-list-item .button--disabled {
   color: #757575;
   cursor: auto;
 }
+
 .dg-shopping-list .shopping-list-item__edit-form {
   display: none;
 }
+
 .sr-only {
   clip: rect(1px, 1px, 1px, 1px) !important;
   border: 0 !important;
@@ -399,13 +459,13 @@ img, svg {
   -ms-flex-pack: center;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex
-;
+  display: flex;
   font-size: 16px;
   font-weight: 500;
   justify-content: center;
   line-height: 17px;
 }
+
 .hidden {
   display: none !important;
 }
@@ -427,11 +487,10 @@ img, svg {
   cursor: pointer;
   padding: 3px;
   font-size: 35px;
-    display: flex
-;
-    justify-content: center;
-    align-items: end;
-    height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 35px;
 }
 
 .dg-shopping-list .shopping-list-item__stock {
@@ -465,6 +524,7 @@ img, svg {
   padding: 12px;
   width: 100%;
 }
+
 .dg-shopping-list .shopping-list-item__wrapper {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -500,7 +560,8 @@ img, svg {
   opacity: 33%;
 }
 
-.dg-shopping-list .shopping-list-deal, .dg-shopping-list .shopping-list-item__edit-form-button-wrapper {
+.dg-shopping-list .shopping-list-deal,
+.dg-shopping-list .shopping-list-item__edit-form-button-wrapper {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   display: -webkit-box;
@@ -539,7 +600,8 @@ img, svg {
   padding: 12px;
   width: 100%;
 }
- .dg-shopping-list .shopping-list-item__deals-available-toggle {
+
+.dg-shopping-list .shopping-list-item__deals-available-toggle {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -557,15 +619,16 @@ img, svg {
   padding: 12px;
   width: 100%;
 }
-.dg-shopping-list .shopping-list-item__deals-applied-toggle-label, .dg-shopping-list .shopping-list-item__deals-available-toggle-label {
+
+.dg-shopping-list .shopping-list-item__deals-applied-toggle-label,
+.dg-shopping-list .shopping-list-item__deals-available-toggle-label {
   -webkit-box-flex: 3;
   -ms-flex-positive: 3;
   -webkit-box-pack: left;
   -ms-flex-pack: left;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex
-;
+  display: flex;
   flex-grow: 3;
   font-size: 12px;
   font-weight: 500;
@@ -589,14 +652,14 @@ img, svg {
   text-align: center;
 }
 
-.dg-shopping-list .shopping-list-item__deals-applied-list, .dg-shopping-list .shopping-list-item__deals-available-list {
+.dg-shopping-list .shopping-list-item__deals-applied-list,
+.dg-shopping-list .shopping-list-item__deals-available-list {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   border: 1px solid #e4e4e4;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex
-;
+  display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: center;
@@ -619,6 +682,7 @@ img, svg {
   padding: 4px 8px 4px 10px;
   text-align: right;
 }
+
 .dg-shopping-list .product-deal__container-main--half-border {
   border-radius: 0 0 4px 4px;
   border-top: unset;
@@ -633,7 +697,8 @@ img, svg {
   padding: 8px 16px 16px;
 }
 
-.dg-shopping-list .product-deal__container-bottom, .dg-shopping-list .product-deal__container-main {
+.dg-shopping-list .product-deal__container-bottom,
+.dg-shopping-list .product-deal__container-main {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   display: -webkit-box;
@@ -648,13 +713,15 @@ img, svg {
   -ms-flex-pack: justify;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex
-;
+  display: flex;
   font-size: 14px;
   justify-content: space-between;
   width: 100%;
 }
-.dg-shopping-list .product-deal__price, .dg-shopping-list .product-deal__type, .dg-shopping-list .product-deal__value {
+
+.dg-shopping-list .product-deal__price,
+.dg-shopping-list .product-deal__type,
+.dg-shopping-list .product-deal__value {
   font-size: 13px;
   font-weight: 600;
 }
@@ -691,8 +758,7 @@ img, svg {
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex
-;
+  display: flex;
   height: 32px;
   justify-content: center;
   width: 32px;
@@ -703,7 +769,7 @@ img, svg {
   transition: all 0.5s;
 }
 
-.sidebar-item.open > .sidebar-title .arrow-icon {
+.sidebar-item.open>.sidebar-title .arrow-icon {
   transform: rotate(90deg);
 }
 
@@ -714,7 +780,8 @@ img, svg {
   display: flex;
   // justify-content: space-between;
 }
-.sidebar-item.open > .shopping-list-item__deals-applied-list {
+
+.sidebar-item.open>.shopping-list-item__deals-applied-list {
   height: auto;
   transition: all 0.5s;
 }
@@ -740,6 +807,7 @@ img, svg {
   margin: 0 auto 16px;
   padding: 24px 16px 24px 24px;
 }
+
 .dg-shopping-list .order-summary {
   background: #fff;
   margin-bottom: 20px;
@@ -756,7 +824,8 @@ img, svg {
   margin: 0 0 16px;
 }
 
-.order-summary__heading, .order-summary__subheading {
+.order-summary__heading,
+.order-summary__subheading {
   font-size: 1rem;
   font-weight: 600;
 }
@@ -766,8 +835,7 @@ img, svg {
   -ms-flex-pack: justify;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex
-;
+  display: flex;
   font-size: 14px;
   justify-content: space-between;
   margin: 0 0 4px 16px;
@@ -778,8 +846,7 @@ img, svg {
   -ms-flex-pack: justify;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex
-;
+  display: flex;
   font-size: .75rem;
   justify-content: space-between;
   margin: 0 0 4px 26px;
@@ -788,6 +855,7 @@ img, svg {
 .dg-shopping-list .order-summary__line--bold {
   font-weight: 600;
 }
+
 .dg-shopping-list .order-summary__line.order-summary__line-total {
   font-size: 16px;
   margin-left: 0;
@@ -803,4 +871,3 @@ img, svg {
   padding: 4px 8px 4px 10px;
   text-align: right;
 }
-
