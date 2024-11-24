@@ -27,7 +27,7 @@ const Sidebar = () => {
 
       <div
         className="sidebar"
-        style={{ width: isOpen ? '230px' : '60px' }}
+        style={{ width: isOpen ? '230px' : '230px' }}
         onMouseEnter={openSidebar}
         onMouseLeave={closeSidebar}
       >

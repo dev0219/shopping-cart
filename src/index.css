@@ -32,6 +32,7 @@ html {
 
 body {
   font-family: var(--font-family);
+  background-color: #f9f8f8;
 }
 
 section {
@@ -106,13 +107,11 @@ section {
 
 /* Center All */
 .--center-all {
-  display: flex;
+  max-width: 1140px;
+  display: block;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
   width: 100%;
   margin: auto;
-  text-align: center;
 }
 
 /* Heading */
