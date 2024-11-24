@@ -1,16 +1,11 @@
 import { useEffect, useState } from 'react';
-import { MdKeyboardArrowRight } from 'react-icons/md';
-import { FaClosedCaptioning } from 'react-icons/fa';
-import { FaPlus } from 'react-icons/fa';
-
 
 const DealItem = ({ item, applied, offers }: any) => {
 
-  var modal = document.getElementById("dealModalbox");
   const [expandMenu1, setExpandMenu1] = useState(false);
   const [expandMenu2, setExpandMenu2] = useState(false);
-  const [applylist, setApplylist] = useState(applied);
-  const [offerlist, setOfferlist] = useState(offers);
+  const applylist = applied;
+  const offerlist = offers;
   const [availablelist, setAvailablelist] = useState([]);
   const [productObj, setProductobj] = useState({})
   const [isopen, setIsOpen] = useState(false);
@@ -35,14 +30,10 @@ const DealItem = ({ item, applied, offers }: any) => {
     let product = {}
     if (dealType == 'offers') {
       product = offers.filter((prod: any) => prod.offerId == OfferCode)
-
     } else {
       product = item.filter((prod: any) => prod.OfferCode == OfferCode)
-
-
     }
     setProductobj({ ...product[0] })
-
     setIsOpen(true)
   }
 
@@ -53,6 +44,7 @@ const DealItem = ({ item, applied, offers }: any) => {
   useEffect(() => {
     filterData()
   }, [])
+
   return (
     <div>
       {applylist.length !== 0 &&
@@ -65,7 +57,7 @@ const DealItem = ({ item, applied, offers }: any) => {
             className="shopping-list-item__deals-applied-toggle"
             onClick={() => setExpandMenu1(!expandMenu1)}
           >
-            <div>
+            <div className="deal-icon">
               <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 29 28" version="1.1">
                 <title>Icon-Deals</title>
                 <g id="⤵️-(M)-Misc-assets" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
@@ -82,7 +74,11 @@ const DealItem = ({ item, applied, offers }: any) => {
               </svg>
             </div>
             <div className="shopping-list-item__deals-applied-toggle-label">Deals applied</div>
-            <MdKeyboardArrowRight size={35} className="arrow-icon" />
+            <div className="arrow-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#000000" height="18px" width="18px" version="1.1" id="Layer_1" viewBox="0 0 330 330" xmlSpace="preserve">
+              <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001  c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213  C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606  C255,161.018,253.42,157.202,250.606,154.389z"/>
+              </svg>
+            </div>
           </div>
 
           <div className={
@@ -115,10 +111,10 @@ const DealItem = ({ item, applied, offers }: any) => {
           }
         >
           <div
-            className="shopping-list-item__deals-available-toggle right-border"
+            className="shopping-list-item__deals-available-toggle"
             onClick={() => setExpandMenu2(!expandMenu2)}
           >
-            <div>
+            <div className="deal-icon">
               <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 29 28" version="1.1">
                 <title>Icon-Deals</title>
                 <g id="⤵️-(M)-Misc-assets" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
@@ -135,9 +131,12 @@ const DealItem = ({ item, applied, offers }: any) => {
               </svg>
             </div>
             <div className="shopping-list-item__deals-available-toggle-label">Deals available</div>
-            <MdKeyboardArrowRight size={35} className="arrow-icon" />
+            <div className="arrow-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#000000" height="18px" width="18px" version="1.1" id="Layer_1" viewBox="0 0 330 330" xmlSpace="preserve">
+              <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001  c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213  C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606  C255,161.018,253.42,157.202,250.606,154.389z"/>
+              </svg>
+            </div>
           </div>
-
           <div className={
             expandMenu2 ? 'shopping-list-item__deals-available-list show' : 'shopping-list-item__deals-available-list hidden '
           }>
@@ -152,7 +151,11 @@ const DealItem = ({ item, applied, offers }: any) => {
                     <span className="product-deal__description">{child.OfferSummary} {child.OfferDescription}</span>
                     <div className="product-deal__container-bottom">
                       <button className="product-deal__detail" type="button" onClick={() => modalView(child.OfferCode, 'available')}>Details</button>
-                      <button className="product-deal__add"><FaPlus /></button>
+                      <button className="product-deal__add">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-plus" viewBox="0 0 16 16">
+                          <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -214,13 +217,10 @@ const DealItem = ({ item, applied, offers }: any) => {
               <div className="discounts__card-description modal-description">{productObj.description}</div>
               <div className="discounts__card-expiration modal-expiration">Exp: 11/23/24</div>
             </div>}
-
           </div>
         </div>
       }
-
     </div>
-
   )
 }
 
