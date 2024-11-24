@@ -880,6 +880,32 @@
                         "couponType": 1,
                         "minQuantity": 1,
                         "redemptionLimitQuantity": 1
+                    },
+                    {
+                        "upcs": [
+                            41294401999,
+                            0
+                        ],
+                        "offerId": "ab2dae7f-2e17-4f9b-b30f-9fe56fd9f7ed",
+                        "OfferCode": "X538075",
+                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/29/631/5129631_36fa517a-b632-45f5-b1ee-843b3ff38aa0.gif",
+                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/29/631/5129631_36fa517a-b632-45f5-b1ee-843b3ff38aa0_high.jpg",
+                        "OfferDescription": "when you spend $15 on assorted Glad®, Clorox®, Pine-Sol®, Tilex®, Liquid Plumr®, 409®, Scentiva®, Brand Products Reg. $2.75-$13 (Redeemable only 11/21 - 11/23)",
+                        "BrandName": "Dollar General",
+                        "OfferSummary": "Save $5.00",
+                        "OfferExpirationDate": "2024-11-23T23:59:59",
+                        "offerDisclaimer": "Coupon Expires on 11/23/2024. Must present discount coupon to cashier. Limit one offer per customer. Not valid with any other Dollar General coupon offer. No cash value. Other exclusions may apply.",
+                        "rewaredCategoryName": "Household",
+                        "IsClipped": 1,
+                        "IsManufacturerCoupon": 0,
+                        "status": 1,
+                        "rewaredOfferValue": 5,
+                        "isBaksetLevel": false,
+                        "isProductEligible": true,
+                        "offerSourceType": 1,
+                        "couponType": 1,
+                        "minQuantity": 1,
+                        "redemptionLimitQuantity": 1
                     }
                 ],
                 
