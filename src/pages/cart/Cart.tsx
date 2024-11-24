@@ -31,9 +31,8 @@ const Cart = () => {
     setProducts(productsLst)
   }
 
-
   return (
-    <div className="--center-all dg-shopping-list" style={{ minHeight: '80vh' }}>
+    <div className="dg-shopping-list">
       <ul className='shopping-lists'>
         {products.map((pro: any, index) => {
           return (
@@ -60,8 +59,7 @@ const Cart = () => {
                       <div className="shopping-list-item__price-wrapper">
                         <span className="shopping-list-item__current-price">${pro.finalPrice}</span>
                         <span className="shopping-list-item__regular-price">
-                          reg
-                          ${pro.originalPrice}</span>
+                          {'reg $'+pro.originalPrice}</span>
                       </div>
                     </div>
                   </div>

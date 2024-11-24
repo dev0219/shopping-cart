@@ -16,16 +16,6 @@ body {
   background-color: #f9f8f8;
 }
 
-.--center-all {
-  max-width: 1140px;
-  display: block;
-  justify-content: center;
-  width: 100%;
-  margin: auto;
-}
-
-
-
 p {
   font-size: 1.5rem;
   font-weight: 300;
@@ -185,15 +175,20 @@ input[type="checkbox"] {
 
 .dg-shopping-list {
   width: 100%;
-  padding: 3%;
-  display: flex;
-  justify-content: space-around !important;
-  vertical-align: baseline !important;
+  padding: 3%; 
+  max-width: 1140px;
+  display: block;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  min-height: 80vh;
 }
 
 @media screen and (min-width: 576px) {
-  .--center-all {
+  .dg-shopping-list {
     display: flex !important;
+    justify-content: space-around !important;
+    vertical-align: baseline !important;
   }
 
   .dg-shopping-list .shopping-list-item {
