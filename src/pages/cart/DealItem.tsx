@@ -50,7 +50,7 @@ const DealItem = ({ item, applied, offers }: any) => {
       {applylist.length !== 0 &&
         <div
           className={
-            expandMenu1 ? 'sidebar-item  open' : 'sidebar-item '
+            expandMenu1 ? 'deals-item  open' : 'deals-item '
           }
         >
           <div
@@ -107,7 +107,7 @@ const DealItem = ({ item, applied, offers }: any) => {
       {(availablelist.length !== 0 || offerlist.length !== 0) &&
         <div
           className={
-            expandMenu2 ? 'sidebar-item  open' : 'sidebar-item '
+            expandMenu2 ? 'deals-item  open' : 'deals-item '
           }
         >
           <div

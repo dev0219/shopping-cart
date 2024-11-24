@@ -81,13 +81,13 @@ p {
   margin: 10px 0 16px;
 }
 
-.sidebar-item>.shopping-list-item__deals-applied-toggle .arrow-icon,
-.sidebar-item>.shopping-list-item__deals-available-toggle .arrow-icon {
+.deals-item>.shopping-list-item__deals-applied-toggle .arrow-icon,
+.deals-item>.shopping-list-item__deals-available-toggle .arrow-icon {
   transform: rotate(-90deg);
 }
 
-.sidebar-item.open>.shopping-list-item__deals-applied-toggle .arrow-icon,
-.sidebar-item.open>.shopping-list-item__deals-available-toggle .arrow-icon {
+.deals-item.open>.shopping-list-item__deals-applied-toggle .arrow-icon,
+.deals-item.open>.shopping-list-item__deals-available-toggle .arrow-icon {
   transform: rotate(90deg);
 }
 
@@ -586,12 +586,12 @@ input[type="checkbox"] {
   display: flex;
 }
 
-.sidebar-item.open>.shopping-list-item__deals-applied-list {
+.deals-item.open>.shopping-list-item__deals-applied-list {
   height: auto;
   transition: all 0.5s;
 }
 
-.sidebar-item {
+.deals-item {
   padding: 0em !important;
   display: block;
   background-color: rgba(255, 255, 255, 0.1);
