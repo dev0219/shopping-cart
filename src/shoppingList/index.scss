@@ -16,12 +16,7 @@ body {
   background-color: #f9f8f8;
 }
 
-p {
-  font-size: 1.5rem;
-  font-weight: 300;
-  line-height: 1.3;
-  color: var(--color-dark);
-}
+
 
 
 /* The Modal (background) */
@@ -191,6 +186,10 @@ input[type="checkbox"] {
     vertical-align: baseline !important;
   }
 
+  .dg-shopping-list .shopping-list-item__action-wrapper-counter {
+    justify-content: space-between !important;
+  }
+
   .dg-shopping-list .shopping-list-item {
     margin-bottom: 24px;
   }
@@ -276,7 +275,7 @@ input[type="checkbox"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding-top: 8px;
   width: 100%;
 }
@@ -641,4 +640,31 @@ input[type="checkbox"] {
   font-weight: 500;
   padding: 4px 8px 4px 10px;
   text-align: right;
+}
+
+.dg-shopping-list .shopping-list-item .button--disabled {
+  color: #757575;
+  cursor: auto;
+}
+
+.dg-shopping-list .shopping-list-item__action-wrapper-counter-movetocart {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 125%;
+  margin-left: 12px;
+  margin-top: 12px;
+  border: none;
+  background: white;
+}
+
+.dg-shopping-list .shopping-list-item__action-wrapper-counter-movetocart p {
+  margin-left: 5px;
 }
