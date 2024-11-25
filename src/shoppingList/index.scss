@@ -668,3 +668,22 @@ input[type="checkbox"] {
 .dg-shopping-list .shopping-list-item__action-wrapper-counter-movetocart p {
   margin-left: 5px;
 }
+
+.item-moved-cart-container {
+  height: 50px;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.item-moved-cart-container button{
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  background: transparent;
+  color: yellow;
+}
