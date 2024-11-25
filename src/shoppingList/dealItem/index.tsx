@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const index = ({ item, applied, offers }: any) => {
+const index = ({ item, applied, offers, onaddCoupons }: any) => {
 
   const [expandMenu1, setExpandMenu1] = useState(false);
   const [expandMenu2, setExpandMenu2] = useState(false);
@@ -33,6 +33,7 @@ const index = ({ item, applied, offers }: any) => {
     let newavailableLst = availableLst.filter((coupon) => coupon.OfferCode != couponitem.OfferCode);
     setAvailablelist(newavailableLst)
     setApplylist(applyLst);
+    onaddCoupons(couponitem);
   }
 
   const modalView = (OfferCode: any, dealType: string) => {

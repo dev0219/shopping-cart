@@ -1,49 +1,51 @@
 {
     "shoppingListId": "MMHGNUZ8Z461466FT7MQ6MTN84J8KGWL",
-    "total": 21.19,
-    "totalCouponsApplied": 4.05,
-    "totalDiscounts": 0.25,
-    "subtotal": 19.45,
-    "subtotalAlternate": 23.5,
-    "originalTotal": 23.5,
-    "taxTotal": 1.74,
+    "total": 46.13,
+    "totalCouponsApplied": 1.0,
+    "totalDiscounts": 0.0,
+    "subtotal": 43.2,
+    "subtotalAlternate": 44.2,
+    "originalTotal": 44.2,
+    "taxTotal": 2.93,
     "products": [
         {
-            "listItemId": 940519258,
-            "upc": 9800211517,
-            "description": "Ferrero Collection Grand Assortment Pralines, 4.1 oz - 12 ct",
-            "sku": "37389501",
-            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-37389501-1",
+            "listItemId": 943905569,
+            "upc": 30772003084,
+            "description": "Gain dryer sheets, 105 Count, Original Scent Laundry Fabric Softener Sheets with 2-in-1 Aromaboost Plus Softness",
+            "sku": "34162401",
+            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-34162401-1",
             "quantity": 1,
             "cartQuantity": 0,
-            "budgetAmount": 7,
-            "originalPrice": 7,
-            "saleAmount": 0,
-            "finalPrice": 6.09,
+            "budgetAmount": 0.0,
+            "originalPrice": 4.5,
+            "saleAmount": 0.0,
+            "finalPrice": 3.5,
             "status": 0,
             "isChecked": 0,
             "dealsApplied": {
                 "coupons": [
                     {
                         "upcs": [
-                            0
+                            30772003084,
+                            0,
+                            37000867494
                         ],
-                        "offerId": "1aef0a66-d41b-4f43-b3ba-8cc134093751",
-                        "OfferCode": "X535203",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133_high.jpg",
-                        "OfferDescription": "on your purchase of $25.00 or more (pre-tax) at Dollar General",
+                        "offerId": "c2c0144b-e011-464d-b496-0a8931e779a6",
+                        "OfferCode": "X538086",
+                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/26/391/5126391_7c266c06-3dd1-4985-b2a9-4d1df0904a3e.gif",
+                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/26/391/5126391_7c266c06-3dd1-4985-b2a9-4d1df0904a3e_high.jpg",
+                        "OfferDescription": "ONE Gain Flings 14ct, OR Gain Fabric Softener 48 Load/35 oz., OR Gain Fabric Softener Sheets 105ct OR Gain Powder 33ld/34oz. Assorted Scents. (excludes trial/travel size)",
                         "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/24. Must present discount coupon to cashier. $25 or more (pretax) after all discounts applied; limit one per person. This coupon can’t be combined with other DG $2, $3 or $5 off store coupons. Excludes phone, gift and prepaid financial cards; prepaid wireless handsets, Rug Doctor rental, propane, tobacco and alcohol.",
-                        "rewaredCategoryName": "Dollar General",
+                        "OfferSummary": "Save $1.00",
+                        "OfferExpirationDate": "2024-11-30T23:59:59",
+                        "offerDisclaimer": "Coupon Expires on 11/30/2024. Must present discount coupon to cashier. Limit one offer per customer. Not valid with any other Dollar General coupon offer. No cash value. Other exclusions may apply.",
+                        "rewaredCategoryName": "Household",
                         "IsClipped": 1,
                         "IsManufacturerCoupon": 0,
                         "status": 0,
-                        "rewaredOfferValue": 0.91,
-                        "isBaksetLevel": true,
-                        "isProductEligible": false,
+                        "rewaredOfferValue": 1.0,
+                        "isBaksetLevel": false,
+                        "isProductEligible": true,
                         "offerSourceType": 1,
                         "couponType": 1,
                         "minQuantity": 1,
@@ -53,46 +55,201 @@
                 "offers": []
             },
             "listTypeId": 1,
-            "availableStock": 3,
+            "availableStock": 9,
             "isEligible": false,
             "isSellable": true,
             "allDeals": {
                 "coupons": [
                     {
                         "upcs": [
-                            0
+                            30772003084,
+                            0,
+                            37000867494
                         ],
-                        "offerId": "1aef0a66-d41b-4f43-b3ba-8cc134093751",
-                        "OfferCode": "X535203",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133_high.jpg",
-                        "OfferDescription": "on your purchase of $25.00 or more (pre-tax) at Dollar General",
+                        "offerId": "c2c0144b-e011-464d-b496-0a8931e779a6",
+                        "OfferCode": "X538086",
+                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/26/391/5126391_7c266c06-3dd1-4985-b2a9-4d1df0904a3e.gif",
+                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/26/391/5126391_7c266c06-3dd1-4985-b2a9-4d1df0904a3e_high.jpg",
+                        "OfferDescription": "ONE Gain Flings 14ct, OR Gain Fabric Softener 48 Load/35 oz., OR Gain Fabric Softener Sheets 105ct OR Gain Powder 33ld/34oz. Assorted Scents. (excludes trial/travel size)",
                         "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/24. Must present discount coupon to cashier. $25 or more (pretax) after all discounts applied; limit one per person. This coupon can’t be combined with other DG $2, $3 or $5 off store coupons. Excludes phone, gift and prepaid financial cards; prepaid wireless handsets, Rug Doctor rental, propane, tobacco and alcohol.",
-                        "rewaredCategoryName": "Dollar General",
+                        "OfferSummary": "Save $1.00",
+                        "OfferExpirationDate": "2024-11-30T23:59:59",
+                        "offerDisclaimer": "Coupon Expires on 11/30/2024. Must present discount coupon to cashier. Limit one offer per customer. Not valid with any other Dollar General coupon offer. No cash value. Other exclusions may apply.",
+                        "rewaredCategoryName": "Household",
                         "IsClipped": 1,
                         "IsManufacturerCoupon": 0,
                         "status": 0,
-                        "rewaredOfferValue": 0.91,
-                        "isBaksetLevel": true,
-                        "isProductEligible": false,
+                        "rewaredOfferValue": 1.0,
+                        "isBaksetLevel": false,
+                        "isProductEligible": true,
+                        "offerSourceType": 1,
+                        "couponType": 1,
+                        "minQuantity": 1,
+                        "redemptionLimitQuantity": 1
+                    },
+                    {
+                        "upcs": [
+                            30772003084,
+                            37000867494,
+                            0
+                        ],
+                        "offerId": "16f8b946-cfd6-47dd-8644-686937e2ff01",
+                        "OfferCode": "X537935",
+                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/23/591/5123591_c7532a7b-abd0-40eb-a1c0-b03939470a26.gif",
+                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/23/591/5123591_c7532a7b-abd0-40eb-a1c0-b03939470a26_high.jpg",
+                        "OfferDescription": "on any Gain Scented purchase of $30 or more",
+                        "BrandName": "Dollar General",
+                        "OfferSummary": "Save $5.00",
+                        "OfferExpirationDate": "2024-11-30T23:59:59",
+                        "offerDisclaimer": "Coupon Expires on 11/30/2024 Must present discount coupon to cashier. Limit one offer per customer. Not valid with any other Dollar General coupon offer. No cash value. Other exclusions may apply.",
+                        "rewaredCategoryName": "Household",
+                        "IsClipped": 1,
+                        "IsManufacturerCoupon": 0,
+                        "status": 2,
+                        "rewaredOfferValue": 5.0,
+                        "isBaksetLevel": false,
+                        "isProductEligible": true,
                         "offerSourceType": 1,
                         "couponType": 1,
                         "minQuantity": 1,
                         "redemptionLimitQuantity": 1
                     }
                 ],
+                "offers": []
+            },
+            "canSubstitute": false,
+            "isGenericBrand": false,
+            "isSubstitutable": false,
+            "dealsStatus": 2,
+            "isValid": true,
+            "pennyOrZeroPriceItem": false,
+            "category": "Laundry Cleaning",
+            "availableStockStore": 9,
+            "inventoryStatus": 3,
+            "productAvailability": {
+                "shipping": {
+                    "isEligible": false,
+                    "stockQuantity": 0
+                },
+                "pickup": {
+                    "isEligible": false,
+                    "stockQuantity": 9
+                },
+                "delivery": {
+                    "isEligible": true,
+                    "stockQuantity": 9
+                }
+            }
+        },
+        {
+            "listItemId": 943885135,
+            "upc": 37000867494,
+            "description": "Gain Flings Laundry Detergent Pacs, 14 Count, Moonlight Breeze Scent, 3 in 1 HE Detergent Pacs with Oxi Boost and Febreeze",
+            "sku": "18525502",
+            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-18525502-1",
+            "quantity": 1,
+            "cartQuantity": 0,
+            "budgetAmount": 4.5,
+            "originalPrice": 4.5,
+            "saleAmount": 0.0,
+            "finalPrice": 4.5,
+            "status": 0,
+            "isChecked": 0,
+            "dealsApplied": {
+                "coupons": []
+            },
+            "listTypeId": 1,
+            "availableStock": 6,
+            "isEligible": true,
+            "isSellable": true,
+            "allDeals": {
+                "coupons": [
+                    {
+                        "upcs": [
+                            30772003084,
+                            37000867494,
+                            0
+                        ],
+                        "offerId": "16f8b946-cfd6-47dd-8644-686937e2ff01",
+                        "OfferCode": "X537935",
+                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/23/591/5123591_c7532a7b-abd0-40eb-a1c0-b03939470a26.gif",
+                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/23/591/5123591_c7532a7b-abd0-40eb-a1c0-b03939470a26_high.jpg",
+                        "OfferDescription": "on any Gain Scented purchase of $30 or more",
+                        "BrandName": "Dollar General",
+                        "OfferSummary": "Save $5.00",
+                        "OfferExpirationDate": "2024-11-30T23:59:59",
+                        "offerDisclaimer": "Coupon Expires on 11/30/2024 Must present discount coupon to cashier. Limit one offer per customer. Not valid with any other Dollar General coupon offer. No cash value. Other exclusions may apply.",
+                        "rewaredCategoryName": "Household",
+                        "IsClipped": 1,
+                        "IsManufacturerCoupon": 0,
+                        "status": 2,
+                        "rewaredOfferValue": 5.0,
+                        "isBaksetLevel": false,
+                        "isProductEligible": true,
+                        "offerSourceType": 1,
+                        "couponType": 1,
+                        "minQuantity": 1,
+                        "redemptionLimitQuantity": 1
+                    }
+                ],
+                "offers": []
+            },
+            "canSubstitute": false,
+            "isGenericBrand": false,
+            "isSubstitutable": true,
+            "dealsStatus": 3,
+            "isValid": true,
+            "pennyOrZeroPriceItem": false,
+            "category": "Laundry Cleaning",
+            "availableStockStore": 6,
+            "inventoryStatus": 3,
+            "productAvailability": {
+                "shipping": {
+                    "isEligible": true,
+                    "stockQuantity": 0
+                },
+                "pickup": {
+                    "isEligible": false,
+                    "stockQuantity": 6
+                },
+                "delivery": {
+                    "isEligible": true,
+                    "stockQuantity": 6
+                }
+            }
+        },
+        {
+            "listItemId": 943438130,
+            "upc": 28300904613,
+            "description": "Shamrock Farms Reduced Fat Cookies \u0027N Cream Milk, 12 fl oz",
+            "sku": "37973201",
+            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-37973201-1",
+            "quantity": 1,
+            "cartQuantity": 0,
+            "budgetAmount": 1.75,
+            "originalPrice": 1.75,
+            "saleAmount": 0.0,
+            "finalPrice": 1.75,
+            "status": 0,
+            "isChecked": 0,
+            "dealsApplied": {
+                "offers": []
+            },
+            "listTypeId": 1,
+            "availableStock": 6,
+            "isEligible": false,
+            "isSellable": true,
+            "allDeals": {
+                "coupons": [],
                 "offers": [
                     {
-                        "offerId": 538143,
-                        "description": "BUY 2 SELECT FERRERO, GET 1 FREE",
-                        "methodValue": 100,
+                        "offerId": 905161,
+                        "description": "2 FOR $3 SELECT SHAMROCK MILK 12 OZ.",
+                        "methodValue": 1.5,
                         "status": 2,
-                        "method": "Percent off",
-                        "savings": "",
-                        "expirationDate": "2024-11-23T23:59:59",
+                        "method": "New price",
+                        "savings": "2 FOR $3.00",
+                        "expirationDate": "2025-01-31T23:59:59",
                         "isBaksetLevel": false
                     }
                 ]
@@ -103,8 +260,8 @@
             "dealsStatus": 3,
             "isValid": true,
             "pennyOrZeroPriceItem": false,
-            "category": "Candy & Gum|Holiday Entertaining|Holiday Candy & Treats",
-            "availableStockStore": 3,
+            "category": "Beverages|Food \u0026 Beverage On Sale",
+            "availableStockStore": 6,
             "inventoryStatus": 3,
             "productAvailability": {
                 "shipping": {
@@ -113,11 +270,58 @@
                 },
                 "pickup": {
                     "isEligible": false,
-                    "stockQuantity": 3
+                    "stockQuantity": 6
                 },
                 "delivery": {
                     "isEligible": true,
-                    "stockQuantity": 3
+                    "stockQuantity": 6
+                }
+            }
+        },
+        {
+            "listItemId": 940519258,
+            "upc": 9800211517,
+            "description": "Ferrero Collection Grand Assortment, Premium Gourmet, Hazelnut Milk Chocolate, Coconut, Almond, Cappuccino, Holiday Gift Box, 4.1oz, 12 Count",
+            "sku": "37389501",
+            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-37389501-1",
+            "quantity": 3,
+            "cartQuantity": 0,
+            "budgetAmount": 7.0,
+            "originalPrice": 21.0,
+            "saleAmount": 0.0,
+            "finalPrice": 21.0,
+            "status": 0,
+            "isChecked": 0,
+            "dealsApplied": {},
+            "listTypeId": 1,
+            "availableStock": 4,
+            "isEligible": false,
+            "isSellable": true,
+            "allDeals": {
+                "coupons": [],
+                "offers": []
+            },
+            "canSubstitute": false,
+            "isGenericBrand": false,
+            "isSubstitutable": false,
+            "dealsStatus": 4,
+            "isValid": true,
+            "pennyOrZeroPriceItem": false,
+            "category": "Candy \u0026 Gum|Holiday Entertaining|Holiday Candy \u0026 Treats",
+            "availableStockStore": 4,
+            "inventoryStatus": 3,
+            "productAvailability": {
+                "shipping": {
+                    "isEligible": false,
+                    "stockQuantity": 0
+                },
+                "pickup": {
+                    "isEligible": false,
+                    "stockQuantity": 4
+                },
+                "delivery": {
+                    "isEligible": true,
+                    "stockQuantity": 4
                 }
             }
         },
@@ -129,73 +333,21 @@
             "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-12284303-1",
             "quantity": 1,
             "cartQuantity": 0,
-            "budgetAmount": 4,
-            "originalPrice": 4,
-            "saleAmount": 0,
-            "finalPrice": 3.48,
+            "budgetAmount": 4.0,
+            "originalPrice": 3.95,
+            "saleAmount": 0.0,
+            "finalPrice": 3.95,
             "status": 0,
             "isChecked": 0,
             "dealsApplied": {
-                "coupons": [
-                    {
-                        "upcs": [
-                            0
-                        ],
-                        "offerId": "1aef0a66-d41b-4f43-b3ba-8cc134093751",
-                        "OfferCode": "X535203",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133_high.jpg",
-                        "OfferDescription": "on your purchase of $25.00 or more (pre-tax) at Dollar General",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/24. Must present discount coupon to cashier. $25 or more (pretax) after all discounts applied; limit one per person. This coupon can’t be combined with other DG $2, $3 or $5 off store coupons. Excludes phone, gift and prepaid financial cards; prepaid wireless handsets, Rug Doctor rental, propane, tobacco and alcohol.",
-                        "rewaredCategoryName": "Dollar General",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 0,
-                        "rewaredOfferValue": 0.52,
-                        "isBaksetLevel": true,
-                        "isProductEligible": false,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    }
-                ],
-                "offers": []
+                "coupons": []
             },
             "listTypeId": 1,
-            "availableStock": 13,
+            "availableStock": 24,
             "isEligible": false,
             "isSellable": true,
             "allDeals": {
                 "coupons": [
-                    {
-                        "upcs": [
-                            0
-                        ],
-                        "offerId": "1aef0a66-d41b-4f43-b3ba-8cc134093751",
-                        "OfferCode": "X535203",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133_high.jpg",
-                        "OfferDescription": "on your purchase of $25.00 or more (pre-tax) at Dollar General",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/24. Must present discount coupon to cashier. $25 or more (pretax) after all discounts applied; limit one per person. This coupon can’t be combined with other DG $2, $3 or $5 off store coupons. Excludes phone, gift and prepaid financial cards; prepaid wireless handsets, Rug Doctor rental, propane, tobacco and alcohol.",
-                        "rewaredCategoryName": "Dollar General",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 0,
-                        "rewaredOfferValue": 0.52,
-                        "isBaksetLevel": true,
-                        "isProductEligible": false,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    },
                     {
                         "upcs": [
                             44000060114,
@@ -205,7 +357,7 @@
                         "OfferCode": "X538016",
                         "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/22/471/5122471_8f8e1b17-e040-4467-8ef6-2b05e04edda9.gif",
                         "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/22/471/5122471_8f8e1b17-e040-4467-8ef6-2b05e04edda9_high.jpg",
-                        "OfferDescription": "Spend $9.00, Save $3.00: Mix & Match Any Size(s) OREO, CHIPS AHOY!, NUTTER BUTTER, LORNA DOONE Cookies, BELVITA Breakfast Biscuits, RITZ, TRISCUIT, WHEAT THINS, PREMIUM, CHICKEN IN A BISKIT, BARNUM'S Animal Crackers, NILLA Wafers, HONEY MAID Grahams, FIG NEWTONS, CLIF Bars, EASY CHEESE, NABISCO Multipacks, SWEDISH FISH and SOUR PATCH KIDS CANDY, HALLS Cough Drops, Assorted Varieties",
+                        "OfferDescription": "Spend $9.00, Save $3.00: Mix \u0026 Match Any Size(s) OREO, CHIPS AHOY!, NUTTER BUTTER, LORNA DOONE Cookies, BELVITA Breakfast Biscuits, RITZ, TRISCUIT, WHEAT THINS, PREMIUM, CHICKEN IN A BISKIT, BARNUM\u0027S Animal Crackers, NILLA Wafers, HONEY MAID Grahams, FIG NEWTONS, CLIF Bars, EASY CHEESE, NABISCO Multipacks, SWEDISH FISH and SOUR PATCH KIDS CANDY, HALLS Cough Drops, Assorted Varieties",
                         "BrandName": "Dollar General",
                         "OfferSummary": "SAVE $3.00",
                         "OfferExpirationDate": "2025-02-01T23:59:00",
@@ -213,8 +365,8 @@
                         "rewaredCategoryName": "Foods",
                         "IsClipped": 1,
                         "IsManufacturerCoupon": 0,
-                        "status": 1,
-                        "rewaredOfferValue": 3,
+                        "status": 2,
+                        "rewaredOfferValue": 3.0,
                         "isBaksetLevel": false,
                         "isProductEligible": true,
                         "offerSourceType": 1,
@@ -231,8 +383,8 @@
             "dealsStatus": 3,
             "isValid": true,
             "pennyOrZeroPriceItem": false,
-            "category": "Snacks & Cookies|Cookies & Cakes",
-            "availableStockStore": 13,
+            "category": "Snacks \u0026 Cookies|Cookies \u0026 Cakes",
+            "availableStockStore": 24,
             "inventoryStatus": 3,
             "productAvailability": {
                 "shipping": {
@@ -241,11 +393,11 @@
                 },
                 "pickup": {
                     "isEligible": false,
-                    "stockQuantity": 13
+                    "stockQuantity": 24
                 },
                 "delivery": {
                     "isEligible": true,
-                    "stockQuantity": 13
+                    "stockQuantity": 24
                 }
             }
         },
@@ -257,74 +409,19 @@
             "image": "",
             "quantity": 1,
             "cartQuantity": 0,
-            "budgetAmount": 2,
-            "originalPrice": 2,
-            "saleAmount": 0,
-            "finalPrice": 2,
+            "budgetAmount": 2.0,
+            "originalPrice": 2.0,
+            "saleAmount": 0.0,
+            "finalPrice": 2.0,
             "status": 0,
             "isChecked": 0,
-            "dealsApplied": {
-                "coupons": [
-                    {
-                        "upcs": [
-                            0
-                        ],
-                        "offerId": "1aef0a66-d41b-4f43-b3ba-8cc134093751",
-                        "OfferCode": "X535203",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133_high.jpg",
-                        "OfferDescription": "on your purchase of $25.00 or more (pre-tax) at Dollar General",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/24. Must present discount coupon to cashier. $25 or more (pretax) after all discounts applied; limit one per person. This coupon can’t be combined with other DG $2, $3 or $5 off store coupons. Excludes phone, gift and prepaid financial cards; prepaid wireless handsets, Rug Doctor rental, propane, tobacco and alcohol.",
-                        "rewaredCategoryName": "Dollar General",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 0,
-                        "rewaredOfferValue": 0.25,
-                        "isBaksetLevel": true,
-                        "isProductEligible": false,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    }
-                ],
-                "offers": []
-            },
+            "dealsApplied": {},
             "listTypeId": 1,
             "availableStock": 0,
             "isEligible": false,
             "isSellable": false,
             "allDeals": {
-                "coupons": [
-                    {
-                        "upcs": [
-                            0
-                        ],
-                        "offerId": "1aef0a66-d41b-4f43-b3ba-8cc134093751",
-                        "OfferCode": "X535203",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133_high.jpg",
-                        "OfferDescription": "on your purchase of $25.00 or more (pre-tax) at Dollar General",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/24. Must present discount coupon to cashier. $25 or more (pretax) after all discounts applied; limit one per person. This coupon can’t be combined with other DG $2, $3 or $5 off store coupons. Excludes phone, gift and prepaid financial cards; prepaid wireless handsets, Rug Doctor rental, propane, tobacco and alcohol.",
-                        "rewaredCategoryName": "Dollar General",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 0,
-                        "rewaredOfferValue": 0.25,
-                        "isBaksetLevel": true,
-                        "isProductEligible": false,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    }
-                ],
+                "coupons": [],
                 "offers": []
             },
             "canSubstitute": false,
@@ -346,72 +443,17 @@
             "cartQuantity": 0,
             "budgetAmount": 6.5,
             "originalPrice": 6.5,
-            "saleAmount": 0,
-            "finalPrice": 5.65,
+            "saleAmount": 0.0,
+            "finalPrice": 6.5,
             "status": 0,
             "isChecked": 0,
-            "dealsApplied": {
-                "coupons": [
-                    {
-                        "upcs": [
-                            0
-                        ],
-                        "offerId": "1aef0a66-d41b-4f43-b3ba-8cc134093751",
-                        "OfferCode": "X535203",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133_high.jpg",
-                        "OfferDescription": "on your purchase of $25.00 or more (pre-tax) at Dollar General",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/24. Must present discount coupon to cashier. $25 or more (pretax) after all discounts applied; limit one per person. This coupon can’t be combined with other DG $2, $3 or $5 off store coupons. Excludes phone, gift and prepaid financial cards; prepaid wireless handsets, Rug Doctor rental, propane, tobacco and alcohol.",
-                        "rewaredCategoryName": "Dollar General",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 0,
-                        "rewaredOfferValue": 0.85,
-                        "isBaksetLevel": true,
-                        "isProductEligible": false,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    }
-                ],
-                "offers": []
-            },
+            "dealsApplied": {},
             "listTypeId": 1,
-            "availableStock": 7,
+            "availableStock": 10,
             "isEligible": false,
             "isSellable": true,
             "allDeals": {
-                "coupons": [
-                    {
-                        "upcs": [
-                            0
-                        ],
-                        "offerId": "1aef0a66-d41b-4f43-b3ba-8cc134093751",
-                        "OfferCode": "X535203",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133_high.jpg",
-                        "OfferDescription": "on your purchase of $25.00 or more (pre-tax) at Dollar General",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/24. Must present discount coupon to cashier. $25 or more (pretax) after all discounts applied; limit one per person. This coupon can’t be combined with other DG $2, $3 or $5 off store coupons. Excludes phone, gift and prepaid financial cards; prepaid wireless handsets, Rug Doctor rental, propane, tobacco and alcohol.",
-                        "rewaredCategoryName": "Dollar General",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 0,
-                        "rewaredOfferValue": 0.85,
-                        "isBaksetLevel": true,
-                        "isProductEligible": false,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    }
-                ],
+                "coupons": [],
                 "offers": []
             },
             "canSubstitute": false,
@@ -420,8 +462,8 @@
             "dealsStatus": 4,
             "isValid": true,
             "pennyOrZeroPriceItem": false,
-            "category": "Home Improvement Supplies|Auto & Hardware On Sale|Dollar Auto & Hardware",
-            "availableStockStore": 7,
+            "category": "Home Improvement Supplies|Auto \u0026 Hardware On Sale",
+            "availableStockStore": 10,
             "inventoryStatus": 3,
             "productAvailability": {
                 "shipping": {
@@ -430,11 +472,11 @@
                 },
                 "pickup": {
                     "isEligible": false,
-                    "stockQuantity": 7
+                    "stockQuantity": 10
                 },
                 "delivery": {
                     "isEligible": true,
-                    "stockQuantity": 7
+                    "stockQuantity": 10
                 }
             }
         },
@@ -446,74 +488,19 @@
             "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-36389401-1",
             "quantity": 1,
             "cartQuantity": 0,
-            "budgetAmount": 10,
-            "originalPrice": 10,
-            "saleAmount": 0,
-            "finalPrice": 10,
+            "budgetAmount": 10.0,
+            "originalPrice": 10.0,
+            "saleAmount": 0.0,
+            "finalPrice": 10.0,
             "status": 0,
             "isChecked": 0,
-            "dealsApplied": {
-                "coupons": [
-                    {
-                        "upcs": [
-                            0
-                        ],
-                        "offerId": "1aef0a66-d41b-4f43-b3ba-8cc134093751",
-                        "OfferCode": "X535203",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133_high.jpg",
-                        "OfferDescription": "on your purchase of $25.00 or more (pre-tax) at Dollar General",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/24. Must present discount coupon to cashier. $25 or more (pretax) after all discounts applied; limit one per person. This coupon can’t be combined with other DG $2, $3 or $5 off store coupons. Excludes phone, gift and prepaid financial cards; prepaid wireless handsets, Rug Doctor rental, propane, tobacco and alcohol.",
-                        "rewaredCategoryName": "Dollar General",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 0,
-                        "rewaredOfferValue": 0,
-                        "isBaksetLevel": true,
-                        "isProductEligible": false,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    }
-                ],
-                "offers": []
-            },
+            "dealsApplied": {},
             "listTypeId": 1,
             "availableStock": 0,
             "isEligible": false,
             "isSellable": false,
             "allDeals": {
-                "coupons": [
-                    {
-                        "upcs": [
-                            0
-                        ],
-                        "offerId": "1aef0a66-d41b-4f43-b3ba-8cc134093751",
-                        "OfferCode": "X535203",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133_high.jpg",
-                        "OfferDescription": "on your purchase of $25.00 or more (pre-tax) at Dollar General",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/24. Must present discount coupon to cashier. $25 or more (pretax) after all discounts applied; limit one per person. This coupon can’t be combined with other DG $2, $3 or $5 off store coupons. Excludes phone, gift and prepaid financial cards; prepaid wireless handsets, Rug Doctor rental, propane, tobacco and alcohol.",
-                        "rewaredCategoryName": "Dollar General",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 0,
-                        "rewaredOfferValue": 0,
-                        "isBaksetLevel": true,
-                        "isProductEligible": false,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    }
-                ],
+                "coupons": [],
                 "offers": []
             },
             "canSubstitute": false,
@@ -527,7 +514,7 @@
                 "label": "Item unavailable",
                 "allowedQuantity": 0
             },
-            "category": "Soap & Body Wash|Valentine's Day|Studio Selection|Valentine's Day Gifts|Valentine's Day Gifts for Her",
+            "category": "Soap \u0026 Body Wash|Valentine\u0027s Day|Studio Selection|Valentine\u0027s Day Gifts|Valentine\u0027s Day Gifts for Her",
             "availableStockStore": 0,
             "inventoryStatus": 1,
             "productAvailability": {
@@ -553,74 +540,19 @@
             "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-36474301-1",
             "quantity": 1,
             "cartQuantity": 0,
-            "budgetAmount": 5,
-            "originalPrice": 5,
-            "saleAmount": 0,
-            "finalPrice": 5,
+            "budgetAmount": 5.0,
+            "originalPrice": 5.0,
+            "saleAmount": 0.0,
+            "finalPrice": 5.0,
             "status": 0,
             "isChecked": 0,
-            "dealsApplied": {
-                "coupons": [
-                    {
-                        "upcs": [
-                            0
-                        ],
-                        "offerId": "1aef0a66-d41b-4f43-b3ba-8cc134093751",
-                        "OfferCode": "X535203",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133_high.jpg",
-                        "OfferDescription": "on your purchase of $25.00 or more (pre-tax) at Dollar General",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/24. Must present discount coupon to cashier. $25 or more (pretax) after all discounts applied; limit one per person. This coupon can’t be combined with other DG $2, $3 or $5 off store coupons. Excludes phone, gift and prepaid financial cards; prepaid wireless handsets, Rug Doctor rental, propane, tobacco and alcohol.",
-                        "rewaredCategoryName": "Dollar General",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 0,
-                        "rewaredOfferValue": 0,
-                        "isBaksetLevel": true,
-                        "isProductEligible": false,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    }
-                ],
-                "offers": []
-            },
+            "dealsApplied": {},
             "listTypeId": 1,
             "availableStock": 0,
             "isEligible": false,
             "isSellable": false,
             "allDeals": {
-                "coupons": [
-                    {
-                        "upcs": [
-                            0
-                        ],
-                        "offerId": "1aef0a66-d41b-4f43-b3ba-8cc134093751",
-                        "OfferCode": "X535203",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133_high.jpg",
-                        "OfferDescription": "on your purchase of $25.00 or more (pre-tax) at Dollar General",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/24. Must present discount coupon to cashier. $25 or more (pretax) after all discounts applied; limit one per person. This coupon can’t be combined with other DG $2, $3 or $5 off store coupons. Excludes phone, gift and prepaid financial cards; prepaid wireless handsets, Rug Doctor rental, propane, tobacco and alcohol.",
-                        "rewaredCategoryName": "Dollar General",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 0,
-                        "rewaredOfferValue": 0,
-                        "isBaksetLevel": true,
-                        "isProductEligible": false,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    }
-                ],
+                "coupons": [],
                 "offers": []
             },
             "canSubstitute": false,
@@ -651,331 +583,48 @@
                     "stockQuantity": 0
                 }
             }
-        },
-        {
-            "listItemId": 940379344,
-            "upc": 41294401999,
-            "description": "Pine-Sol All Purpose Multi-Surface Cleaner, Lemon Fresh, 48 oz",
-            "sku": "00939404",
-            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-00939401-1",
-            "quantity": 1,
-            "cartQuantity": 0,
-            "budgetAmount": 4,
-            "originalPrice": 4,
-            "saleAmount": 0,
-            "finalPrice": 2.48,
-            "status": 0,
-            "isChecked": 0,
-            "dealsApplied": {
-                "coupons": [
-                    {
-                        "upcs": [
-                            41294401999
-                        ],
-                        "offerId": "c14a0db1-2486-4139-9dcb-696da23cbbcd",
-                        "OfferCode": "22917092",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/53/711/5053711_cd81ae77-e778-4b88-bd1c-41ecd5e8263e.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/53/711/5053711_cd81ae77-e778-4b88-bd1c-41ecd5e8263e_high.jpg",
-                        "OfferDescription": "on ANY ONE (1) Pine-Sol® Multi-Surface Cleaner, 20oz+",
-                        "BrandName": "Pine-Sol®",
-                        "OfferSummary": "Save $1.00",
-                        "OfferExpirationDate": "2024-12-14T23:59:59",
-                        "offerDisclaimer": "CONSUMER: LIMIT ONE COUPON PER PURCHASE of products and quantities stated. LIMIT OF 4 IDENTICAL COUPONS PER HOUSEHOLD PER DAY. Coupons not authorized if purchasing products for resale. Only original coupons accepted. Copying, selling, reposting or auctioning of coupons is prohibited and constitutes fraud. Overage will not be provided in exchange for any coupons (i.e., NO CASH BACK). You pay sales tax. Valid in USA, APOs and FPOs only. Void where taxed, restricted or prohibited. RETAILER: You are authorized to act as our agent to redeem this coupon in accordance with The Clorox Sales Company coupon redemption policy (available upon request). We will reimburse you for face value plus up to $0.12 handling if submitted in accordance with our redemption policy. Send coupons to: The Clorox Company 2122, NCH Marketing Services, P.O. Box 880001, El Paso, TX 88588-0001. The Clorox Company participates in the CIC® Member Coupon Integrity Program.",
-                        "rewaredCategoryName": "Household",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 1,
-                        "status": 0,
-                        "rewaredOfferValue": 1,
-                        "isBaksetLevel": false,
-                        "isProductEligible": true,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    },
-                    {
-                        "upcs": [
-                            0
-                        ],
-                        "offerId": "1aef0a66-d41b-4f43-b3ba-8cc134093751",
-                        "OfferCode": "X535203",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133_high.jpg",
-                        "OfferDescription": "on your purchase of $25.00 or more (pre-tax) at Dollar General",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/24. Must present discount coupon to cashier. $25 or more (pretax) after all discounts applied; limit one per person. This coupon can’t be combined with other DG $2, $3 or $5 off store coupons. Excludes phone, gift and prepaid financial cards; prepaid wireless handsets, Rug Doctor rental, propane, tobacco and alcohol.",
-                        "rewaredCategoryName": "Dollar General",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 0,
-                        "rewaredOfferValue": 0.52,
-                        "isBaksetLevel": true,
-                        "isProductEligible": false,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    }
-                ],
-                "offers": []
-            },
-            "listTypeId": 1,
-            "availableStock": 11,
-            "isEligible": false,
-            "isSellable": true,
-            "allDeals": {
-                "coupons": [
-                    {
-                        "upcs": [
-                            41294401999
-                        ],
-                        "offerId": "c14a0db1-2486-4139-9dcb-696da23cbbcd",
-                        "OfferCode": "22917092",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/53/711/5053711_cd81ae77-e778-4b88-bd1c-41ecd5e8263e.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/53/711/5053711_cd81ae77-e778-4b88-bd1c-41ecd5e8263e_high.jpg",
-                        "OfferDescription": "on ANY ONE (1) Pine-Sol® Multi-Surface Cleaner, 20oz+",
-                        "BrandName": "Pine-Sol®",
-                        "OfferSummary": "Save $1.00",
-                        "OfferExpirationDate": "2024-12-14T23:59:59",
-                        "offerDisclaimer": "CONSUMER: LIMIT ONE COUPON PER PURCHASE of products and quantities stated. LIMIT OF 4 IDENTICAL COUPONS PER HOUSEHOLD PER DAY. Coupons not authorized if purchasing products for resale. Only original coupons accepted. Copying, selling, reposting or auctioning of coupons is prohibited and constitutes fraud. Overage will not be provided in exchange for any coupons (i.e., NO CASH BACK). You pay sales tax. Valid in USA, APOs and FPOs only. Void where taxed, restricted or prohibited. RETAILER: You are authorized to act as our agent to redeem this coupon in accordance with The Clorox Sales Company coupon redemption policy (available upon request). We will reimburse you for face value plus up to $0.12 handling if submitted in accordance with our redemption policy. Send coupons to: The Clorox Company 2122, NCH Marketing Services, P.O. Box 880001, El Paso, TX 88588-0001. The Clorox Company participates in the CIC® Member Coupon Integrity Program.",
-                        "rewaredCategoryName": "Household",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 1,
-                        "status": 0,
-                        "rewaredOfferValue": 1,
-                        "isBaksetLevel": false,
-                        "isProductEligible": true,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    },
-                    {
-                        "upcs": [
-                            0
-                        ],
-                        "offerId": "1aef0a66-d41b-4f43-b3ba-8cc134093751",
-                        "OfferCode": "X535203",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/81/101/5081101_a21b7141-098c-4064-98b7-23bc7df97133_high.jpg",
-                        "OfferDescription": "on your purchase of $25.00 or more (pre-tax) at Dollar General",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/24. Must present discount coupon to cashier. $25 or more (pretax) after all discounts applied; limit one per person. This coupon can’t be combined with other DG $2, $3 or $5 off store coupons. Excludes phone, gift and prepaid financial cards; prepaid wireless handsets, Rug Doctor rental, propane, tobacco and alcohol.",
-                        "rewaredCategoryName": "Dollar General",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 0,
-                        "rewaredOfferValue": 0.52,
-                        "isBaksetLevel": true,
-                        "isProductEligible": false,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    },
-                    {
-                        "upcs": [
-                            41294401999,
-                            0
-                        ],
-                        "offerId": "ab2dae7f-2e17-4f9b-b30f-9fe56fd9f7ed",
-                        "OfferCode": "X538075",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/29/631/5129631_36fa517a-b632-45f5-b1ee-843b3ff38aa0.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/29/631/5129631_36fa517a-b632-45f5-b1ee-843b3ff38aa0_high.jpg",
-                        "OfferDescription": "when you spend $15 on assorted Glad®, Clorox®, Pine-Sol®, Tilex®, Liquid Plumr®, 409®, Scentiva®, Brand Products Reg. $2.75-$13 (Redeemable only 11/21 - 11/23)",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/2024. Must present discount coupon to cashier. Limit one offer per customer. Not valid with any other Dollar General coupon offer. No cash value. Other exclusions may apply.",
-                        "rewaredCategoryName": "Household",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 1,
-                        "rewaredOfferValue": 5,
-                        "isBaksetLevel": false,
-                        "isProductEligible": true,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    },
-                    {
-                        "upcs": [
-                            41294401999,
-                            0
-                        ],
-                        "offerId": "ab2dae7f-2e17-4f9b-b30f-9fe56fd9f7ed",
-                        "OfferCode": "X53o075",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/29/631/5129631_36fa517a-b632-45f5-b1ee-843b3ff38aa0.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/29/631/5129631_36fa517a-b632-45f5-b1ee-843b3ff38aa0_high.jpg",
-                        "OfferDescription": "when you spend $15 on assorted Glad®, Clorox®, Pine-Sol®, Tilex®, Liquid Plumr®, 409®, Scentiva®, Brand Products Reg. $2.75-$13 (Redeemable only 11/21 - 11/23)",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/2024. Must present discount coupon to cashier. Limit one offer per customer. Not valid with any other Dollar General coupon offer. No cash value. Other exclusions may apply.",
-                        "rewaredCategoryName": "Household",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 1,
-                        "rewaredOfferValue": 5,
-                        "isBaksetLevel": false,
-                        "isProductEligible": true,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    },
-                    {
-                        "upcs": [
-                            41294401999,
-                            0
-                        ],
-                        "offerId": "ab2dae7f-2e17-4f9b-b30f-9fe56fd9f7ed",
-                        "OfferCode": "X5380y5",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/29/631/5129631_36fa517a-b632-45f5-b1ee-843b3ff38aa0.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/29/631/5129631_36fa517a-b632-45f5-b1ee-843b3ff38aa0_high.jpg",
-                        "OfferDescription": "when you spend $15 on assorted Glad®, Clorox®",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/2024. Must present discount coupon to cashier. Limit one offer per customer. Not valid with any other Dollar General coupon offer. No cash value. Other exclusions may apply.",
-                        "rewaredCategoryName": "Household",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 1,
-                        "rewaredOfferValue": 5,
-                        "isBaksetLevel": false,
-                        "isProductEligible": true,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    },
-                    {
-                        "upcs": [
-                            41294401999,
-                            0
-                        ],
-                        "offerId": "ab2dae7f-2e17-4f9b-b30f-9fe56fd9f7ed",
-                        "OfferCode": "X5t8075",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/29/631/5129631_36fa517a-b632-45f5-b1ee-843b3ff38aa0.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/29/631/5129631_36fa517a-b632-45f5-b1ee-843b3ff38aa0_high.jpg",
-                        "OfferDescription": "when you spend $15 on assorted Glad®, Clorox®, Pine-Sol®, Tilex®, Liquid Plumr®, 409®, Scentiva®, Brand Products Reg. $2.75-$13 (Redeemable only 11/21 - 11/23)",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/2024. Must present discount coupon to cashier. Limit one offer per customer. Not valid with any other Dollar General coupon offer. No cash value. Other exclusions may apply.",
-                        "rewaredCategoryName": "Household",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 1,
-                        "rewaredOfferValue": 5,
-                        "isBaksetLevel": false,
-                        "isProductEligible": true,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    },
-                    {
-                        "upcs": [
-                            41294401999,
-                            0
-                        ],
-                        "offerId": "ab2dae7f-2e17-4f9b-b30f-9fe56fd9f7ed",
-                        "OfferCode": "X538s75",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/29/631/5129631_36fa517a-b632-45f5-b1ee-843b3ff38aa0.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/29/631/5129631_36fa517a-b632-45f5-b1ee-843b3ff38aa0_high.jpg",
-                        "OfferDescription": "when you spend $15 on assorted Glad®, Clorox®, Pine-Sol®, Tilex®, Liquid Plumr®, 409®, Scentiva®, Brand Products Reg. $2.75-$13 (Redeemable only 11/21 - 11/23)",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-23T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/23/2024. Must present discount coupon to cashier. Limit one offer per customer. Not valid with any other Dollar General coupon offer. No cash value. Other exclusions may apply.",
-                        "rewaredCategoryName": "Household",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 1,
-                        "rewaredOfferValue": 5,
-                        "isBaksetLevel": false,
-                        "isProductEligible": true,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    }
-                ],
-                
-                "offers": []
-            },
-            "canSubstitute": false,
-            "isGenericBrand": false,
-            "isSubstitutable": true,
-            "dealsStatus": 2,
-            "isValid": true,
-            "pennyOrZeroPriceItem": false,
-            "category": "All Purpose Cleaners",
-            "availableStockStore": 11,
-            "inventoryStatus": 3,
-            "productAvailability": {
-                "shipping": {
-                    "isEligible": false,
-                    "stockQuantity": 0
-                },
-                "pickup": {
-                    "isEligible": false,
-                    "stockQuantity": 11
-                },
-                "delivery": {
-                    "isEligible": true,
-                    "stockQuantity": 11
-                }
-            }
         }
     ],
-    "store": 1014,
-    "cartMaximumAmount": 200,
-    "cartMiminumAmount": 1,
+    "store": 25810,
+    "cartMaximumAmount": 200.0,
+    "cartMiminumAmount": 1.0,
     "bringMyOwnBagsStore": false,
     "bringMyOwnBagsSelected": false,
     "shoppingListTypeId": 1,
     "addressId": "",
     "hasPreviousList": true,
     "shippingTax": {
-        "shippingOptionCost": 0,
+        "shippingOptionCost": 0.0,
         "shippingOptionId": 0,
-        "shippingTaxAmount": 0,
-        "shippingTaxRate": 0
+        "shippingTaxAmount": 0.0,
+        "shippingTaxRate": 0.0
     },
     "deliveryFee": {
         "FeeID": 0,
-        "FeeAmount": 0,
+        "FeeAmount": 0.0,
         "Quantity": 0,
         "Store": 0,
-        "TotalFeeAmount": 0,
-        "FeeRate": 0,
-        "ShippingTax": 0,
-        "TaxRate": 0,
-        "TaxAmount": 0,
-        "TaxId": 0,
+        "TotalFeeAmount": 0.0,
+        "FeeRate": 0.0,
+        "ShippingTax": 0.0,
+        "TaxRate": 0.0,
+        "TaxAmount": 0.0,
+        "TaxId": 0.0,
         "Upc": 0
     },
     "isContactLessDropoff": false,
     "cartSummary": {
-        "originalTotal": 38.5,
-        "subTotal": 19.45,
+        "originalTotal": 59.2,
+        "subTotal": 43.2,
         "applicableFees": {
-            "totalFees": 0,
-            "totalTaxOnTaxableFees": 0,
+            "totalFees": 0.0,
+            "totalTaxOnTaxableFees": 0.0,
             "fees": []
         },
-        "shippingCost": 0,
-        "deliveryTip": 0,
-        "tax": 1.74,
-        "total": 21.19
+        "shippingCost": 0.0,
+        "deliveryTip": 0.0,
+        "tax": 2.93,
+        "total": 46.13
     },
     "deliveryTipSchedule": [
         {
@@ -1001,6 +650,6 @@
         }
     ],
     "deliverySpeedId": "0",
-    "deliverySpeedFeeAmount": 0,
+    "deliverySpeedFeeAmount": 0.0,
     "upc": 0
 }

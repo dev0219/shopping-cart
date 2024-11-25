@@ -1,4 +1,4 @@
-import productJson from '../data/product.json';
+import productJsonStaticData from '../data/product.json';
 import { useState } from 'react';
 import './index.scss';
 import DealItem from './dealItem';
@@ -7,8 +7,9 @@ import AddToCart from './addToCart';
 
 const index = () => {
 
-  const [products, setProducts] = useState(productJson.products);
+  const [products, setProducts] = useState(productJsonStaticData.products);
   const [movedItems, setMovedItems] = useState([]);
+  const [shoppinglist, setShoppingList] = useState(productJsonStaticData)
 
   const linkDetail = (upc: any) => {
     console.log("--- upc", upc)
@@ -46,6 +47,14 @@ const index = () => {
     setMovedItems(items);
   }
 
+  const addCoupons = (coupon:any) => {
+    let shopData = {...shoppinglist};
+    shopData.total = shopData.total - 1;
+    shopData.totalCouponsApplied = shopData.totalCouponsApplied - 1.5;
+    shopData.subtotal = shopData.subtotal - 0.5;
+    setShoppingList(shopData)
+  }
+
   return (
     <div className="dg-shopping-list">
       <ul className='shopping-lists'>
@@ -53,15 +62,15 @@ const index = () => {
           return (
             <li key={index} className="shopping-list-item">
               <AddToCart pro={pro} index={index} onchangeQuantity={changeQuantity} oncloseItem={closeItem} onmoveItem={moveToCart} onlinkDetail={linkDetail} />
-              {pro.allDeals.coupons.length &&
-                <DealItem key={"deal-item" + index} item={pro.allDeals.coupons} applied={pro.dealsApplied.coupons} offers={pro.allDeals.offers} />
+              {pro.allDeals.coupons.length != 0 &&
+                <DealItem key={"deal-item" + index} item={pro.allDeals.coupons} applied={pro.dealsApplied.coupons} offers={pro.allDeals.offers} onaddCoupons={addCoupons}/>
               }
               {movedItems.includes(pro.listItemId) && <div className='item-moved-cart-container'><span>Item moved to your cart</span><button type='button' onClick={() => undoMoved(pro)}>Undo</button></div>}
             </li>
           )
         })}
       </ul>
-      <ListSummary items={productJson} />
+      <ListSummary items={shoppinglist} />
     </div>
   );
 };
