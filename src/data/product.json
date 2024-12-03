@@ -21,7 +21,7 @@
             "saleAmount": 0.0,
             "finalPrice": 3.5,
             "status": 0,
-            "isChecked": 0,
+            "isChecked": 1,
             "dealsApplied": {
                 "coupons": [
                     {
@@ -291,7 +291,7 @@
             "saleAmount": 0.0,
             "finalPrice": 21.0,
             "status": 0,
-            "isChecked": 0,
+            "isChecked": 1,
             "dealsApplied": {},
             "listTypeId": 1,
             "availableStock": 4,
@@ -446,7 +446,7 @@
             "saleAmount": 0.0,
             "finalPrice": 6.5,
             "status": 0,
-            "isChecked": 0,
+            "isChecked": 1,
             "dealsApplied": {},
             "listTypeId": 1,
             "availableStock": 10,
@@ -493,7 +493,7 @@
             "saleAmount": 0.0,
             "finalPrice": 10.0,
             "status": 0,
-            "isChecked": 0,
+            "isChecked": 1,
             "dealsApplied": {},
             "listTypeId": 1,
             "availableStock": 0,

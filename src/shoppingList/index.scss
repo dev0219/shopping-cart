@@ -687,3 +687,50 @@ input[type="checkbox"] {
   background: transparent;
   color: yellow;
 }
+
+/* New Updates 11.27 */
+summary {
+  list-style: none; /* Remove default arrow */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.checked-items-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.checked-items-header p{
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.custom-icon {
+  margin-left: 8px;
+  transition: transform 0.2s ease-in-out;
+  transform: rotate(-90deg);
+}
+details[open] .custom-icon {
+  transform: rotate(90deg);
+}
+
+summary::after {
+  margin-left: 1ch;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+details[open] > summary::after {
+  transform: rotate(90deg);
+}
+
+.checked-shopping-list {
+  padding: 15px;
+  background: white;
+}
+
+/* New Updates 11.27 */
