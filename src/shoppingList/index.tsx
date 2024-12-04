@@ -4,6 +4,7 @@ import './index.scss';
 import DealItem from './dealItem';
 import ListSummary from './listSummary';
 import AddToCart from './addToCart';
+import ActionModal from './modals/actionModal'
 
 const index = () => {
 
@@ -13,6 +14,9 @@ const index = () => {
   const [movedItems, setMovedItems] = useState([]);
   const [shoppinglist, setShoppingList] = useState(productJsonStaticData);
   const [isOpen, setIsOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false)
+  const [isDeleteModal, setIsDeleteModal] = useState(false);
+  const [modalHeader, setModalHeader] = useState('');
 
   const linkDetail = (upc: any) => {
     console.log("--- upc", upc)
@@ -23,23 +27,30 @@ const index = () => {
   }
 
   const changeQuantity = (pro: any, type: string) => {
-    let productsLst = [...products];
-    const productIndex = productsLst.findIndex((item) => item.listItemId === pro.listItemId);
-    if (productIndex !== -1) {
-      let currentProduct = { ...productsLst[productIndex] };
-      if (type === 'increase') {
-        currentProduct.quantity++;
-        productsLst[productIndex] = currentProduct;
-      } else if (currentProduct.quantity > 1) {
-        currentProduct.quantity--;
-        productsLst[productIndex] = currentProduct;
-      } else if (currentProduct.quantity == 1) {
-        productsLst = productsLst.filter((item) => item.listItemId != pro.listItemId)
+    if (pro.isChecked) {
+      setIsModalOpen(true)
+      setModalHeader("Oops, a checked off item can't be edited. Do you want to add it back to your list?")
+      setIsDeleteModal(false)
+    } else {
+      let productsLst = [...products];
+      const productIndex = productsLst.findIndex((item) => item.listItemId === pro.listItemId);
+      if (productIndex !== -1) {
+        let currentProduct = { ...productsLst[productIndex] };
+        if (type === 'increase') {
+          currentProduct.quantity++;
+          productsLst[productIndex] = currentProduct;
+        } else if (currentProduct.quantity > 1) {
+          currentProduct.quantity--;
+          productsLst[productIndex] = currentProduct;
+        } else if (currentProduct.quantity == 1) {
+          productsLst = productsLst.filter((item) => item.listItemId != pro.listItemId)
+        }
+        setProducts(productsLst);
       }
-      setProducts(productsLst);
     }
+
   };
-  
+
 
   const closeItem = (pro: any) => {
     let productsLst = [...products]
@@ -81,6 +92,19 @@ const index = () => {
       setProducts(productsLst);
     }
   }
+
+  const onhandleModal = () => {
+    if (!isModalOpen) {
+      setModalHeader("Delete checked off items?")
+      setIsDeleteModal(true)
+    }
+    setIsModalOpen(!isModalOpen)
+  }
+
+  const onConfirmed = () => {
+    setIsModalOpen(false)
+  }
+
 
   useEffect(() => {
     const filterData = () => {
@@ -125,12 +149,12 @@ const index = () => {
                     fill="#000000" />
                 </svg>
               </div>
-              {isOpen && <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#3477eb" className="bi bi-trash" viewBox="0 0 16 16">
+              {isOpen && <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#3477eb" className="bi bi-trash" viewBox="0 0 16 16" onClick={() => onhandleModal()}>
                 <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z" />
                 <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z" />
               </svg>}
               {(!isOpen && checkedProducts.length > 0) && <div className="sum-checked-off">
-                {checkedProducts.length > 0 && <span>${checkedProducts.reduce((n, {finalPrice}) => n + finalPrice,0)} </span>}
+                {checkedProducts.length > 0 && <span>${checkedProducts.reduce((n, { finalPrice }) => n + finalPrice, 0)} </span>}
               </div>}
             </summary>
             <ul>
@@ -150,7 +174,10 @@ const index = () => {
         </div>
       </div>
       <ListSummary items={shoppinglist} />
-    </div>
+      {isModalOpen &&
+        <ActionModal modalHeader={modalHeader} handleModal={onhandleModal} Confirmed={onConfirmed} isDeleteModal={isDeleteModal}/>
+      }
+    </div >
   );
 };
 
