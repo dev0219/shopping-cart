@@ -1,297 +1,27 @@
 {
     "shoppingListId": "MMHGNUZ8Z461466FT7MQ6MTN84J8KGWL",
-    "total": 46.13,
-    "totalCouponsApplied": 1.0,
-    "totalDiscounts": 0.0,
-    "subtotal": 43.2,
-    "subtotalAlternate": 44.2,
-    "originalTotal": 44.2,
-    "taxTotal": 2.93,
+    "total": 88.59,
+    "totalCouponsApplied": 5,
+    "totalDiscounts": 3.8,
+    "subtotal": 81.4,
+    "subtotalAlternate": 90.2,
+    "originalTotal": 90.2,
+    "taxTotal": 7.19,
     "products": [
         {
-            "listItemId": 943905569,
-            "upc": 30772003084,
-            "description": "Gain dryer sheets, 105 Count, Original Scent Laundry Fabric Softener Sheets with 2-in-1 Aromaboost Plus Softness",
-            "sku": "34162401",
-            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-34162401-1",
+            "listItemId": 988629911,
+            "upc": 24100124022,
+            "description": "Cheez-It Cheese Crackers Original, Baked Snack Crackers, 6 Count",
+            "sku": "38802801",
+            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-38802801-1",
             "quantity": 1,
             "cartQuantity": 0,
-            "budgetAmount": 0.0,
-            "originalPrice": 4.5,
-            "saleAmount": 0.0,
-            "finalPrice": 3.5,
-            "status": 0,
-            "isChecked": 1,
-            "dealsApplied": {
-                "coupons": [
-                    {
-                        "upcs": [
-                            30772003084,
-                            0,
-                            37000867494
-                        ],
-                        "offerId": "c2c0144b-e011-464d-b496-0a8931e779a6",
-                        "OfferCode": "X538086",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/26/391/5126391_7c266c06-3dd1-4985-b2a9-4d1df0904a3e.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/26/391/5126391_7c266c06-3dd1-4985-b2a9-4d1df0904a3e_high.jpg",
-                        "OfferDescription": "ONE Gain Flings 14ct, OR Gain Fabric Softener 48 Load/35 oz., OR Gain Fabric Softener Sheets 105ct OR Gain Powder 33ld/34oz. Assorted Scents. (excludes trial/travel size)",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $1.00",
-                        "OfferExpirationDate": "2024-11-30T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/30/2024. Must present discount coupon to cashier. Limit one offer per customer. Not valid with any other Dollar General coupon offer. No cash value. Other exclusions may apply.",
-                        "rewaredCategoryName": "Household",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 0,
-                        "rewaredOfferValue": 1.0,
-                        "isBaksetLevel": false,
-                        "isProductEligible": true,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    }
-                ],
-                "offers": []
-            },
-            "listTypeId": 1,
-            "availableStock": 9,
-            "isEligible": false,
-            "isSellable": true,
-            "allDeals": {
-                "coupons": [
-                    {
-                        "upcs": [
-                            30772003084,
-                            0,
-                            37000867494
-                        ],
-                        "offerId": "c2c0144b-e011-464d-b496-0a8931e779a6",
-                        "OfferCode": "X538086",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/26/391/5126391_7c266c06-3dd1-4985-b2a9-4d1df0904a3e.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/26/391/5126391_7c266c06-3dd1-4985-b2a9-4d1df0904a3e_high.jpg",
-                        "OfferDescription": "ONE Gain Flings 14ct, OR Gain Fabric Softener 48 Load/35 oz., OR Gain Fabric Softener Sheets 105ct OR Gain Powder 33ld/34oz. Assorted Scents. (excludes trial/travel size)",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $1.00",
-                        "OfferExpirationDate": "2024-11-30T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/30/2024. Must present discount coupon to cashier. Limit one offer per customer. Not valid with any other Dollar General coupon offer. No cash value. Other exclusions may apply.",
-                        "rewaredCategoryName": "Household",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 0,
-                        "rewaredOfferValue": 1.0,
-                        "isBaksetLevel": false,
-                        "isProductEligible": true,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    },
-                    {
-                        "upcs": [
-                            30772003084,
-                            37000867494,
-                            0
-                        ],
-                        "offerId": "16f8b946-cfd6-47dd-8644-686937e2ff01",
-                        "OfferCode": "X537935",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/23/591/5123591_c7532a7b-abd0-40eb-a1c0-b03939470a26.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/23/591/5123591_c7532a7b-abd0-40eb-a1c0-b03939470a26_high.jpg",
-                        "OfferDescription": "on any Gain Scented purchase of $30 or more",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-30T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/30/2024 Must present discount coupon to cashier. Limit one offer per customer. Not valid with any other Dollar General coupon offer. No cash value. Other exclusions may apply.",
-                        "rewaredCategoryName": "Household",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 2,
-                        "rewaredOfferValue": 5.0,
-                        "isBaksetLevel": false,
-                        "isProductEligible": true,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    }
-                ],
-                "offers": []
-            },
-            "canSubstitute": false,
-            "isGenericBrand": false,
-            "isSubstitutable": false,
-            "dealsStatus": 2,
-            "isValid": true,
-            "pennyOrZeroPriceItem": false,
-            "category": "Laundry Cleaning",
-            "availableStockStore": 9,
-            "inventoryStatus": 3,
-            "productAvailability": {
-                "shipping": {
-                    "isEligible": false,
-                    "stockQuantity": 0
-                },
-                "pickup": {
-                    "isEligible": false,
-                    "stockQuantity": 9
-                },
-                "delivery": {
-                    "isEligible": true,
-                    "stockQuantity": 9
-                }
-            }
-        },
-        {
-            "listItemId": 943885135,
-            "upc": 37000867494,
-            "description": "Gain Flings Laundry Detergent Pacs, 14 Count, Moonlight Breeze Scent, 3 in 1 HE Detergent Pacs with Oxi Boost and Febreeze",
-            "sku": "18525502",
-            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-18525502-1",
-            "quantity": 1,
-            "cartQuantity": 0,
-            "budgetAmount": 4.5,
-            "originalPrice": 4.5,
-            "saleAmount": 0.0,
-            "finalPrice": 4.5,
+            "budgetAmount": 3.55,
+            "originalPrice": 3.55,
+            "saleAmount": 0,
+            "finalPrice": 3.55,
             "status": 0,
             "isChecked": 0,
-            "dealsApplied": {
-                "coupons": []
-            },
-            "listTypeId": 1,
-            "availableStock": 6,
-            "isEligible": true,
-            "isSellable": true,
-            "allDeals": {
-                "coupons": [
-                    {
-                        "upcs": [
-                            30772003084,
-                            37000867494,
-                            0
-                        ],
-                        "offerId": "16f8b946-cfd6-47dd-8644-686937e2ff01",
-                        "OfferCode": "X537935",
-                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/23/591/5123591_c7532a7b-abd0-40eb-a1c0-b03939470a26.gif",
-                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/23/591/5123591_c7532a7b-abd0-40eb-a1c0-b03939470a26_high.jpg",
-                        "OfferDescription": "on any Gain Scented purchase of $30 or more",
-                        "BrandName": "Dollar General",
-                        "OfferSummary": "Save $5.00",
-                        "OfferExpirationDate": "2024-11-30T23:59:59",
-                        "offerDisclaimer": "Coupon Expires on 11/30/2024 Must present discount coupon to cashier. Limit one offer per customer. Not valid with any other Dollar General coupon offer. No cash value. Other exclusions may apply.",
-                        "rewaredCategoryName": "Household",
-                        "IsClipped": 1,
-                        "IsManufacturerCoupon": 0,
-                        "status": 2,
-                        "rewaredOfferValue": 5.0,
-                        "isBaksetLevel": false,
-                        "isProductEligible": true,
-                        "offerSourceType": 1,
-                        "couponType": 1,
-                        "minQuantity": 1,
-                        "redemptionLimitQuantity": 1
-                    }
-                ],
-                "offers": []
-            },
-            "canSubstitute": false,
-            "isGenericBrand": false,
-            "isSubstitutable": true,
-            "dealsStatus": 3,
-            "isValid": true,
-            "pennyOrZeroPriceItem": false,
-            "category": "Laundry Cleaning",
-            "availableStockStore": 6,
-            "inventoryStatus": 3,
-            "productAvailability": {
-                "shipping": {
-                    "isEligible": true,
-                    "stockQuantity": 0
-                },
-                "pickup": {
-                    "isEligible": false,
-                    "stockQuantity": 6
-                },
-                "delivery": {
-                    "isEligible": true,
-                    "stockQuantity": 6
-                }
-            }
-        },
-        {
-            "listItemId": 943438130,
-            "upc": 28300904613,
-            "description": "Shamrock Farms Reduced Fat Cookies \u0027N Cream Milk, 12 fl oz",
-            "sku": "37973201",
-            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-37973201-1",
-            "quantity": 1,
-            "cartQuantity": 0,
-            "budgetAmount": 1.75,
-            "originalPrice": 1.75,
-            "saleAmount": 0.0,
-            "finalPrice": 1.75,
-            "status": 0,
-            "isChecked": 0,
-            "dealsApplied": {
-                "offers": []
-            },
-            "listTypeId": 1,
-            "availableStock": 6,
-            "isEligible": false,
-            "isSellable": true,
-            "allDeals": {
-                "coupons": [],
-                "offers": [
-                    {
-                        "offerId": 905161,
-                        "description": "2 FOR $3 SELECT SHAMROCK MILK 12 OZ.",
-                        "methodValue": 1.5,
-                        "status": 2,
-                        "method": "New price",
-                        "savings": "2 FOR $3.00",
-                        "expirationDate": "2025-01-31T23:59:59",
-                        "isBaksetLevel": false
-                    }
-                ]
-            },
-            "canSubstitute": false,
-            "isGenericBrand": false,
-            "isSubstitutable": false,
-            "dealsStatus": 3,
-            "isValid": true,
-            "pennyOrZeroPriceItem": false,
-            "category": "Beverages|Food \u0026 Beverage On Sale",
-            "availableStockStore": 6,
-            "inventoryStatus": 3,
-            "productAvailability": {
-                "shipping": {
-                    "isEligible": false,
-                    "stockQuantity": 0
-                },
-                "pickup": {
-                    "isEligible": false,
-                    "stockQuantity": 6
-                },
-                "delivery": {
-                    "isEligible": true,
-                    "stockQuantity": 6
-                }
-            }
-        },
-        {
-            "listItemId": 940519258,
-            "upc": 9800211517,
-            "description": "Ferrero Collection Grand Assortment, Premium Gourmet, Hazelnut Milk Chocolate, Coconut, Almond, Cappuccino, Holiday Gift Box, 4.1oz, 12 Count",
-            "sku": "37389501",
-            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-37389501-1",
-            "quantity": 3,
-            "cartQuantity": 0,
-            "budgetAmount": 7.0,
-            "originalPrice": 21.0,
-            "saleAmount": 0.0,
-            "finalPrice": 21.0,
-            "status": 0,
-            "isChecked": 1,
             "dealsApplied": {},
             "listTypeId": 1,
             "availableStock": 4,
@@ -307,7 +37,7 @@
             "dealsStatus": 4,
             "isValid": true,
             "pennyOrZeroPriceItem": false,
-            "category": "Candy \u0026 Gum|Holiday Entertaining|Holiday Candy \u0026 Treats",
+            "category": "Snacks & Cookies",
             "availableStockStore": 4,
             "inventoryStatus": 3,
             "productAvailability": {
@@ -326,6 +56,565 @@
             }
         },
         {
+            "listItemId": 988186344,
+            "upc": 47900303190,
+            "description": "Luzianne Family Size Iced Tea, 24 Bags",
+            "sku": "00804203",
+            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-00804201-1",
+            "quantity": 1,
+            "cartQuantity": 0,
+            "budgetAmount": 2.35,
+            "originalPrice": 2.25,
+            "saleAmount": 0,
+            "finalPrice": 2.25,
+            "status": 0,
+            "isChecked": 0,
+            "dealsApplied": {},
+            "listTypeId": 1,
+            "availableStock": 1,
+            "isEligible": false,
+            "isSellable": true,
+            "allDeals": {
+                "coupons": [],
+                "offers": []
+            },
+            "canSubstitute": false,
+            "isGenericBrand": false,
+            "isSubstitutable": false,
+            "dealsStatus": 4,
+            "isValid": true,
+            "pennyOrZeroPriceItem": false,
+            "category": "Coffee & Tea",
+            "availableStockStore": 1,
+            "inventoryStatus": 2,
+            "productAvailability": {
+                "shipping": {
+                    "isEligible": false,
+                    "stockQuantity": 0
+                },
+                "pickup": {
+                    "isEligible": false,
+                    "stockQuantity": 1
+                },
+                "delivery": {
+                    "isEligible": true,
+                    "stockQuantity": 1
+                }
+            }
+        },
+        {
+            "listItemId": 988138905,
+            "upc": 79400551108,
+            "description": "AXE Phoenix Crushed Mint & Rosemary, Men’s Antiperspirant Deodorant Stick, 2.7 oz",
+            "sku": "00521707",
+            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-00521701-1",
+            "quantity": 2,
+            "cartQuantity": 0,
+            "budgetAmount": 6.25,
+            "originalPrice": 11.9,
+            "saleAmount": 0,
+            "finalPrice": 6.9,
+            "status": 0,
+            "isChecked": 0,
+            "dealsApplied": {
+                "coupons": [
+                    {
+                        "upcs": [
+                            79400551108
+                        ],
+                        "offerId": "4fa144d3-51ec-4e02-962f-b8e8975776c4",
+                        "OfferCode": "22933127",
+                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/92/301/5092301_5dfe8614-396f-4175-9fe3-6bc527b33209.gif",
+                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/92/301/5092301_5dfe8614-396f-4175-9fe3-6bc527b33209_high.jpg",
+                        "OfferDescription": "on any TWO (2) AXE Body Sprays, Sticks, or Body Wash Products (excludes trial and travel sizes and 1.7oz sticks)",
+                        "BrandName": "AXE",
+                        "OfferSummary": "SAVE $5.00",
+                        "OfferExpirationDate": "2025-02-01T23:59:59",
+                        "offerDisclaimer": "LIMIT ONE (1) COUPON PER PURCHASE on products and quantity specified. Void if reproduced, transferred, used to purchase products for resale or where prohibited/regulated by law. Coupon value may not exceed value of item purchased. NO CASH BACK. Consumer pays sales tax. Redeemable at participating retail stores. Valid only in the U.S. NOT VALID IN PUERTO RICO. Retailer: Unilever, Inc. 1370, NCH Marketing Services, P.O. Box 880001, El Paso, TX 88588-0001 will reimburse the face value of this coupon, plus 8c, if submitted in compliance with our redemption policy, available upon request. Cash value 1/100th of 1c. Any use of this coupon not specified herein constitutes fraud. © 2025 UNILEVER ",
+                        "rewaredCategoryName": "Personal Care",
+                        "IsClipped": 1,
+                        "IsManufacturerCoupon": 1,
+                        "status": 0,
+                        "rewaredOfferValue": 5,
+                        "isBaksetLevel": false,
+                        "isProductEligible": true,
+                        "offerSourceType": 1,
+                        "couponType": 1,
+                        "minQuantity": 2,
+                        "redemptionLimitQuantity": 1
+                    }
+                ]
+            },
+            "listTypeId": 1,
+            "availableStock": 0,
+            "isEligible": false,
+            "isSellable": true,
+            "allDeals": {
+                "coupons": [
+                    {
+                        "upcs": [
+                            79400551108
+                        ],
+                        "offerId": "4fa144d3-51ec-4e02-962f-b8e8975776c4",
+                        "OfferCode": "22933127",
+                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/92/301/5092301_5dfe8614-396f-4175-9fe3-6bc527b33209.gif",
+                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/92/301/5092301_5dfe8614-396f-4175-9fe3-6bc527b33209_high.jpg",
+                        "OfferDescription": "on any TWO (2) AXE Body Sprays, Sticks, or Body Wash Products (excludes trial and travel sizes and 1.7oz sticks)",
+                        "BrandName": "AXE",
+                        "OfferSummary": "SAVE $5.00",
+                        "OfferExpirationDate": "2025-02-01T23:59:59",
+                        "offerDisclaimer": "LIMIT ONE (1) COUPON PER PURCHASE on products and quantity specified. Void if reproduced, transferred, used to purchase products for resale or where prohibited/regulated by law. Coupon value may not exceed value of item purchased. NO CASH BACK. Consumer pays sales tax. Redeemable at participating retail stores. Valid only in the U.S. NOT VALID IN PUERTO RICO. Retailer: Unilever, Inc. 1370, NCH Marketing Services, P.O. Box 880001, El Paso, TX 88588-0001 will reimburse the face value of this coupon, plus 8c, if submitted in compliance with our redemption policy, available upon request. Cash value 1/100th of 1c. Any use of this coupon not specified herein constitutes fraud. © 2025 UNILEVER ",
+                        "rewaredCategoryName": "Personal Care",
+                        "IsClipped": 1,
+                        "IsManufacturerCoupon": 1,
+                        "status": 0,
+                        "rewaredOfferValue": 5,
+                        "isBaksetLevel": false,
+                        "isProductEligible": true,
+                        "offerSourceType": 1,
+                        "couponType": 1,
+                        "minQuantity": 2,
+                        "redemptionLimitQuantity": 1
+                    }
+                ],
+                "offers": []
+            },
+            "canSubstitute": false,
+            "isGenericBrand": false,
+            "isSubstitutable": false,
+            "dealsStatus": 2,
+            "isValid": true,
+            "pennyOrZeroPriceItem": false,
+            "stockChanges": {
+                "message": "Unable to add this item at this time.",
+                "label": "Item unavailable",
+                "allowedQuantity": 0
+            },
+            "category": "Deodorants & Antiperspirants",
+            "availableStockStore": 0,
+            "inventoryStatus": 1,
+            "productAvailability": {
+                "shipping": {
+                    "isEligible": false,
+                    "stockQuantity": 0
+                },
+                "pickup": {
+                    "isEligible": false,
+                    "stockQuantity": 0
+                },
+                "delivery": {
+                    "isEligible": true,
+                    "stockQuantity": 0
+                }
+            }
+        },
+        {
+            "listItemId": 988128410,
+            "upc": 44600306193,
+            "description": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel, Ocean Mist, 24 oz",
+            "sku": "00956104",
+            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-00956102-1",
+            "quantity": 2,
+            "cartQuantity": 0,
+            "budgetAmount": 3,
+            "originalPrice": 5.5,
+            "saleAmount": 0,
+            "finalPrice": 5.5,
+            "status": 0,
+            "isChecked": 0,
+            "dealsApplied": {},
+            "listTypeId": 1,
+            "availableStock": 5,
+            "isEligible": false,
+            "isSellable": true,
+            "allDeals": {
+                "coupons": [],
+                "offers": []
+            },
+            "canSubstitute": false,
+            "isGenericBrand": false,
+            "isSubstitutable": true,
+            "dealsStatus": 4,
+            "isValid": true,
+            "pennyOrZeroPriceItem": false,
+            "category": "Bathroom Cleaning|Cleaning On Sale",
+            "availableStockStore": 5,
+            "inventoryStatus": 3,
+            "productAvailability": {
+                "shipping": {
+                    "isEligible": false,
+                    "stockQuantity": 0
+                },
+                "pickup": {
+                    "isEligible": false,
+                    "stockQuantity": 5
+                },
+                "delivery": {
+                    "isEligible": true,
+                    "stockQuantity": 5
+                }
+            }
+        },
+        {
+            "listItemId": 981365128,
+            "upc": 42000154208,
+            "description": "Dixie Ultra 10 Inch Flex-Proof Paper Plates, 44 ct",
+            "sku": "00990803",
+            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-00990803-1",
+            "quantity": 1,
+            "cartQuantity": 0,
+            "budgetAmount": 6.95,
+            "originalPrice": 6.5,
+            "saleAmount": 0,
+            "finalPrice": 6.5,
+            "status": 0,
+            "isChecked": 0,
+            "dealsApplied": {},
+            "listTypeId": 1,
+            "availableStock": 6,
+            "isEligible": false,
+            "isSellable": true,
+            "allDeals": {
+                "coupons": [],
+                "offers": []
+            },
+            "canSubstitute": false,
+            "isGenericBrand": false,
+            "isSubstitutable": true,
+            "dealsStatus": 4,
+            "isValid": true,
+            "pennyOrZeroPriceItem": false,
+            "category": "Paper & Plastic|Paper & Plastic Tableware",
+            "availableStockStore": 6,
+            "inventoryStatus": 3,
+            "productAvailability": {
+                "shipping": {
+                    "isEligible": false,
+                    "stockQuantity": 0
+                },
+                "pickup": {
+                    "isEligible": false,
+                    "stockQuantity": 6
+                },
+                "delivery": {
+                    "isEligible": true,
+                    "stockQuantity": 6
+                }
+            }
+        },
+        {
+            "listItemId": 981369307,
+            "upc": 12000191442,
+            "description": "Mtn Dew Zero Sugar Soda,12 fl oz, 12 Can",
+            "sku": "23969201",
+            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-23969201-1",
+            "quantity": 4,
+            "cartQuantity": 0,
+            "budgetAmount": 7.95,
+            "originalPrice": 31.8,
+            "saleAmount": 0,
+            "finalPrice": 28,
+            "status": 0,
+            "isChecked": 0,
+            "dealsApplied": {
+                "coupons": [],
+                "offers": [
+                    {
+                        "offerId": 905491,
+                        "description": "2 FOR $14 SELECT PEPSI OR MTN DEW 12PK CANS",
+                        "methodValue": 3.8,
+                        "status": 0,
+                        "method": "New price",
+                        "savings": "$3.80",
+                        "expirationDate": "2025-01-31T23:59:59",
+                        "isBaksetLevel": false
+                    }
+                ]
+            },
+            "listTypeId": 1,
+            "availableStock": 20,
+            "isEligible": false,
+            "isSellable": true,
+            "allDeals": {
+                "coupons": [
+                    {
+                        "upcs": [
+                            12000183676,
+                            12000191442,
+                            0
+                        ],
+                        "offerId": "21f509ba-789d-4209-a15a-6e0965e8e588",
+                        "OfferCode": "X538679",
+                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/85/831/5185831_2808d9c3-0bf9-4a66-8ece-4a52cdb4a386.gif",
+                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/85/831/5185831_2808d9c3-0bf9-4a66-8ece-4a52cdb4a386_high.jpg",
+                        "OfferDescription": "when you buy any ONE (1) participating Pepsi-Cola® product and ONE (1) participating Frito-Lay® product",
+                        "BrandName": "Dollar General",
+                        "OfferSummary": "Save $3.00",
+                        "OfferExpirationDate": "2025-01-25T23:59:59",
+                        "offerDisclaimer": "CONSUMER: Only one coupon per purchase. You pay sales tax and/or deposit charge, where applicable. Coupon may not be assigned, transferred or reproduced. Any other use constitutes fraud. Cash value 1/100¿ RETAILER: We will reimburse you for the face value plus 8¿ handling if you and the consumer have complied with our Coupon Redemption Policy available at the redemption address. Mail coupons to PEPSI-COLA COMPANY, c/o Inmar Brand Solutions, Dept. 12000, Mfr Rcv Office, 801 Union Pacific Blvd, STE 5, Laredo, TX 78045-9475. All brands are registered trademarks of PepsiCo, Inc. or its affiliates. ©2025. Coupon expires 01/25/2025.",
+                        "rewaredCategoryName": "Beverages",
+                        "IsClipped": 1,
+                        "IsManufacturerCoupon": 0,
+                        "status": 2,
+                        "rewaredOfferValue": 3,
+                        "isBaksetLevel": false,
+                        "isProductEligible": true,
+                        "offerSourceType": 1,
+                        "couponType": 1,
+                        "minQuantity": 2,
+                        "redemptionLimitQuantity": 1
+                    }
+                ],
+                "offers": [
+                    {
+                        "offerId": 905491,
+                        "description": "2 FOR $14 SELECT PEPSI OR MTN DEW 12PK CANS",
+                        "methodValue": 3.8,
+                        "status": 0,
+                        "method": "New price",
+                        "savings": "$3.80",
+                        "expirationDate": "2025-01-31T23:59:59",
+                        "isBaksetLevel": false
+                    }
+                ]
+            },
+            "canSubstitute": false,
+            "isGenericBrand": false,
+            "isSubstitutable": true,
+            "dealsStatus": 2,
+            "isValid": true,
+            "pennyOrZeroPriceItem": false,
+            "category": "Beverages|Week Long Savings|Soft Drinks",
+            "availableStockStore": 20,
+            "inventoryStatus": 3,
+            "productAvailability": {
+                "shipping": {
+                    "isEligible": false,
+                    "stockQuantity": 0
+                },
+                "pickup": {
+                    "isEligible": false,
+                    "stockQuantity": 20
+                },
+                "delivery": {
+                    "isEligible": true,
+                    "stockQuantity": 20
+                }
+            }
+        },
+        {
+            "listItemId": 981364919,
+            "upc": 12000183676,
+            "description": "Mountain Dew Liberty Chill with 50 Flavors, 12 oz - 12 pk",
+            "sku": "22974601",
+            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-22974601-1",
+            "quantity": 2,
+            "cartQuantity": 0,
+            "budgetAmount": 7.95,
+            "originalPrice": 15.9,
+            "saleAmount": 0,
+            "finalPrice": 15.9,
+            "status": 0,
+            "isChecked": 0,
+            "dealsApplied": {
+                "coupons": [],
+                "offers": [
+                    {
+                        "offerId": 905491,
+                        "description": "2 FOR $14 SELECT PEPSI OR MTN DEW 12PK CANS",
+                        "methodValue": 0,
+                        "status": 0,
+                        "method": "New price",
+                        "savings": "$3.80",
+                        "expirationDate": "2025-01-31T23:59:59",
+                        "isBaksetLevel": false
+                    }
+                ]
+            },
+            "listTypeId": 1,
+            "availableStock": 20,
+            "isEligible": false,
+            "isSellable": false,
+            "allDeals": {
+                "coupons": [
+                    {
+                        "upcs": [
+                            12000183676,
+                            12000191442,
+                            0
+                        ],
+                        "offerId": "21f509ba-789d-4209-a15a-6e0965e8e588",
+                        "OfferCode": "X538679",
+                        "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/85/831/5185831_2808d9c3-0bf9-4a66-8ece-4a52cdb4a386.gif",
+                        "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/85/831/5185831_2808d9c3-0bf9-4a66-8ece-4a52cdb4a386_high.jpg",
+                        "OfferDescription": "when you buy any ONE (1) participating Pepsi-Cola® product and ONE (1) participating Frito-Lay® product",
+                        "BrandName": "Dollar General",
+                        "OfferSummary": "Save $3.00",
+                        "OfferExpirationDate": "2025-01-25T23:59:59",
+                        "offerDisclaimer": "CONSUMER: Only one coupon per purchase. You pay sales tax and/or deposit charge, where applicable. Coupon may not be assigned, transferred or reproduced. Any other use constitutes fraud. Cash value 1/100¿ RETAILER: We will reimburse you for the face value plus 8¿ handling if you and the consumer have complied with our Coupon Redemption Policy available at the redemption address. Mail coupons to PEPSI-COLA COMPANY, c/o Inmar Brand Solutions, Dept. 12000, Mfr Rcv Office, 801 Union Pacific Blvd, STE 5, Laredo, TX 78045-9475. All brands are registered trademarks of PepsiCo, Inc. or its affiliates. ©2025. Coupon expires 01/25/2025.",
+                        "rewaredCategoryName": "Beverages",
+                        "IsClipped": 1,
+                        "IsManufacturerCoupon": 0,
+                        "status": 2,
+                        "rewaredOfferValue": 3,
+                        "isBaksetLevel": false,
+                        "isProductEligible": true,
+                        "offerSourceType": 1,
+                        "couponType": 1,
+                        "minQuantity": 2,
+                        "redemptionLimitQuantity": 1
+                    }
+                ],
+                "offers": [
+                    {
+                        "offerId": 905491,
+                        "description": "2 FOR $14 SELECT PEPSI OR MTN DEW 12PK CANS",
+                        "methodValue": 0,
+                        "status": 0,
+                        "method": "New price",
+                        "savings": "$3.80",
+                        "expirationDate": "2025-01-31T23:59:59",
+                        "isBaksetLevel": false
+                    }
+                ]
+            },
+            "canSubstitute": false,
+            "isGenericBrand": false,
+            "isSubstitutable": false,
+            "dealsStatus": 2,
+            "isValid": false,
+            "pennyOrZeroPriceItem": false,
+            "category": "Beverages|Soft Drinks",
+            "availableStockStore": 20,
+            "inventoryStatus": 3,
+            "productAvailability": {
+                "shipping": {
+                    "isEligible": false,
+                    "stockQuantity": 0
+                },
+                "pickup": {
+                    "isEligible": false,
+                    "stockQuantity": 20
+                },
+                "delivery": {
+                    "isEligible": true,
+                    "stockQuantity": 20
+                }
+            }
+        },
+        {
+            "listItemId": 943438130,
+            "upc": 28300904613,
+            "description": "Shamrock Farms Reduced Fat Cookies 'N Cream Milk, 12 fl oz",
+            "sku": "37973201",
+            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-37973201-1",
+            "quantity": 1,
+            "cartQuantity": 0,
+            "budgetAmount": 1.75,
+            "originalPrice": 1.75,
+            "saleAmount": 0,
+            "finalPrice": 1.75,
+            "status": 0,
+            "isChecked": 0,
+            "dealsApplied": {
+                "offers": []
+            },
+            "listTypeId": 1,
+            "availableStock": 0,
+            "isEligible": false,
+            "isSellable": true,
+            "allDeals": {
+                "coupons": [],
+                "offers": [
+                    {
+                        "offerId": 910830,
+                        "description": "2 FOR $3 SELECT SHAMROCK MILK 12OZ",
+                        "methodValue": 1.5,
+                        "status": 2,
+                        "method": "New price",
+                        "savings": "2 FOR $3.00",
+                        "expirationDate": "2026-01-17T23:59:59",
+                        "isBaksetLevel": false
+                    }
+                ]
+            },
+            "canSubstitute": false,
+            "isGenericBrand": false,
+            "isSubstitutable": false,
+            "dealsStatus": 3,
+            "isValid": true,
+            "pennyOrZeroPriceItem": false,
+            "stockChanges": {
+                "message": "Unable to add this item at this time.",
+                "label": "Item unavailable",
+                "allowedQuantity": 0
+            },
+            "category": "Beverages|Food & Beverage On Sale|Even Lower Prices",
+            "availableStockStore": 0,
+            "inventoryStatus": 1,
+            "productAvailability": {
+                "shipping": {
+                    "isEligible": false,
+                    "stockQuantity": 0
+                },
+                "pickup": {
+                    "isEligible": false,
+                    "stockQuantity": 0
+                },
+                "delivery": {
+                    "isEligible": true,
+                    "stockQuantity": 0
+                }
+            }
+        },
+        {
+            "listItemId": 940519258,
+            "upc": 9800211517,
+            "description": "Ferrero Collection Grand Assortment Chocolate Gift Box, 12 ct",
+            "sku": "37389501",
+            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-37389501-1",
+            "quantity": 3,
+            "cartQuantity": 0,
+            "budgetAmount": 7,
+            "originalPrice": 21,
+            "saleAmount": 0,
+            "finalPrice": 21,
+            "status": 0,
+            "isChecked": 0,
+            "dealsApplied": {},
+            "listTypeId": 1,
+            "availableStock": 5,
+            "isEligible": false,
+            "isSellable": true,
+            "allDeals": {
+                "coupons": [],
+                "offers": []
+            },
+            "canSubstitute": false,
+            "isGenericBrand": false,
+            "isSubstitutable": false,
+            "dealsStatus": 4,
+            "isValid": true,
+            "pennyOrZeroPriceItem": false,
+            "category": "Candy & Gum|Holiday Entertaining|Holiday Candy & Treats",
+            "availableStockStore": 5,
+            "inventoryStatus": 3,
+            "productAvailability": {
+                "shipping": {
+                    "isEligible": false,
+                    "stockQuantity": 0
+                },
+                "pickup": {
+                    "isEligible": false,
+                    "stockQuantity": 5
+                },
+                "delivery": {
+                    "isEligible": true,
+                    "stockQuantity": 5
+                }
+            }
+        },
+        {
             "listItemId": 940517319,
             "upc": 44000060114,
             "description": "OREO Chocolate Sandwich Cookies, 13.29 oz",
@@ -333,9 +622,9 @@
             "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-12284303-1",
             "quantity": 1,
             "cartQuantity": 0,
-            "budgetAmount": 4.0,
+            "budgetAmount": 4,
             "originalPrice": 3.95,
-            "saleAmount": 0.0,
+            "saleAmount": 0,
             "finalPrice": 3.95,
             "status": 0,
             "isChecked": 0,
@@ -343,7 +632,7 @@
                 "coupons": []
             },
             "listTypeId": 1,
-            "availableStock": 24,
+            "availableStock": 13,
             "isEligible": false,
             "isSellable": true,
             "allDeals": {
@@ -357,7 +646,7 @@
                         "OfferCode": "X538016",
                         "Image1": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/22/471/5122471_8f8e1b17-e040-4467-8ef6-2b05e04edda9.gif",
                         "Image2": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/22/471/5122471_8f8e1b17-e040-4467-8ef6-2b05e04edda9_high.jpg",
-                        "OfferDescription": "Spend $9.00, Save $3.00: Mix \u0026 Match Any Size(s) OREO, CHIPS AHOY!, NUTTER BUTTER, LORNA DOONE Cookies, BELVITA Breakfast Biscuits, RITZ, TRISCUIT, WHEAT THINS, PREMIUM, CHICKEN IN A BISKIT, BARNUM\u0027S Animal Crackers, NILLA Wafers, HONEY MAID Grahams, FIG NEWTONS, CLIF Bars, EASY CHEESE, NABISCO Multipacks, SWEDISH FISH and SOUR PATCH KIDS CANDY, HALLS Cough Drops, Assorted Varieties",
+                        "OfferDescription": "Spend $9.00, Save $3.00: Mix & Match Any Size(s) OREO, CHIPS AHOY!, NUTTER BUTTER, LORNA DOONE Cookies, BELVITA Breakfast Biscuits, RITZ, TRISCUIT, WHEAT THINS, PREMIUM, CHICKEN IN A BISKIT, BARNUM'S Animal Crackers, NILLA Wafers, HONEY MAID Grahams, FIG NEWTONS, CLIF Bars, EASY CHEESE, NABISCO Multipacks, SWEDISH FISH and SOUR PATCH KIDS CANDY, HALLS Cough Drops, Assorted Varieties",
                         "BrandName": "Dollar General",
                         "OfferSummary": "SAVE $3.00",
                         "OfferExpirationDate": "2025-02-01T23:59:00",
@@ -366,7 +655,7 @@
                         "IsClipped": 1,
                         "IsManufacturerCoupon": 0,
                         "status": 2,
-                        "rewaredOfferValue": 3.0,
+                        "rewaredOfferValue": 3,
                         "isBaksetLevel": false,
                         "isProductEligible": true,
                         "offerSourceType": 1,
@@ -383,8 +672,8 @@
             "dealsStatus": 3,
             "isValid": true,
             "pennyOrZeroPriceItem": false,
-            "category": "Snacks \u0026 Cookies|Cookies \u0026 Cakes",
-            "availableStockStore": 24,
+            "category": "Snacks & Cookies|Cookies & Cakes",
+            "availableStockStore": 13,
             "inventoryStatus": 3,
             "productAvailability": {
                 "shipping": {
@@ -393,11 +682,11 @@
                 },
                 "pickup": {
                     "isEligible": false,
-                    "stockQuantity": 24
+                    "stockQuantity": 13
                 },
                 "delivery": {
                     "isEligible": true,
-                    "stockQuantity": 24
+                    "stockQuantity": 13
                 }
             }
         },
@@ -409,10 +698,10 @@
             "image": "",
             "quantity": 1,
             "cartQuantity": 0,
-            "budgetAmount": 2.0,
-            "originalPrice": 2.0,
-            "saleAmount": 0.0,
-            "finalPrice": 2.0,
+            "budgetAmount": 2,
+            "originalPrice": 2,
+            "saleAmount": 0,
+            "finalPrice": 2,
             "status": 0,
             "isChecked": 0,
             "dealsApplied": {},
@@ -434,53 +723,6 @@
             "inventoryStatus": 0
         },
         {
-            "listItemId": 940381743,
-            "upc": 79340648869,
-            "description": "Loctite Powergrab All Purpose, 9oz.",
-            "sku": "38244801",
-            "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-38244801-1",
-            "quantity": 1,
-            "cartQuantity": 0,
-            "budgetAmount": 6.5,
-            "originalPrice": 6.5,
-            "saleAmount": 0.0,
-            "finalPrice": 6.5,
-            "status": 0,
-            "isChecked": 1,
-            "dealsApplied": {},
-            "listTypeId": 1,
-            "availableStock": 10,
-            "isEligible": false,
-            "isSellable": true,
-            "allDeals": {
-                "coupons": [],
-                "offers": []
-            },
-            "canSubstitute": false,
-            "isGenericBrand": false,
-            "isSubstitutable": false,
-            "dealsStatus": 4,
-            "isValid": true,
-            "pennyOrZeroPriceItem": false,
-            "category": "Home Improvement Supplies|Auto \u0026 Hardware On Sale",
-            "availableStockStore": 10,
-            "inventoryStatus": 3,
-            "productAvailability": {
-                "shipping": {
-                    "isEligible": false,
-                    "stockQuantity": 0
-                },
-                "pickup": {
-                    "isEligible": false,
-                    "stockQuantity": 10
-                },
-                "delivery": {
-                    "isEligible": true,
-                    "stockQuantity": 10
-                }
-            }
-        },
-        {
             "listItemId": 940382790,
             "upc": 430001983765,
             "description": "Studio Selection 12 Days Bath Bomb Set, 12 pc",
@@ -488,12 +730,12 @@
             "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-36389401-1",
             "quantity": 1,
             "cartQuantity": 0,
-            "budgetAmount": 10.0,
-            "originalPrice": 10.0,
-            "saleAmount": 0.0,
-            "finalPrice": 10.0,
+            "budgetAmount": 10,
+            "originalPrice": 10,
+            "saleAmount": 0,
+            "finalPrice": 10,
             "status": 0,
-            "isChecked": 1,
+            "isChecked": 0,
             "dealsApplied": {},
             "listTypeId": 1,
             "availableStock": 0,
@@ -514,7 +756,7 @@
                 "label": "Item unavailable",
                 "allowedQuantity": 0
             },
-            "category": "Soap \u0026 Body Wash|Valentine\u0027s Day|Studio Selection|Valentine\u0027s Day Gifts|Valentine\u0027s Day Gifts for Her",
+            "category": "Soap & Body Wash|Valentine's Day|Studio Selection|Valentine's Day Gifts|Valentine's Day Gifts for Her",
             "availableStockStore": 0,
             "inventoryStatus": 1,
             "productAvailability": {
@@ -540,10 +782,10 @@
             "image": "https://s7d9.scene7.com/is/image/dollargeneral/dg-36474301-1",
             "quantity": 1,
             "cartQuantity": 0,
-            "budgetAmount": 5.0,
-            "originalPrice": 5.0,
-            "saleAmount": 0.0,
-            "finalPrice": 5.0,
+            "budgetAmount": 5,
+            "originalPrice": 5,
+            "saleAmount": 0,
+            "finalPrice": 5,
             "status": 0,
             "isChecked": 0,
             "dealsApplied": {},
@@ -585,46 +827,46 @@
             }
         }
     ],
-    "store": 25810,
-    "cartMaximumAmount": 200.0,
-    "cartMiminumAmount": 1.0,
+    "store": 527,
+    "cartMaximumAmount": 200,
+    "cartMiminumAmount": 1,
     "bringMyOwnBagsStore": false,
     "bringMyOwnBagsSelected": false,
     "shoppingListTypeId": 1,
     "addressId": "",
     "hasPreviousList": true,
     "shippingTax": {
-        "shippingOptionCost": 0.0,
+        "shippingOptionCost": 0,
         "shippingOptionId": 0,
-        "shippingTaxAmount": 0.0,
-        "shippingTaxRate": 0.0
+        "shippingTaxAmount": 0,
+        "shippingTaxRate": 0
     },
     "deliveryFee": {
         "FeeID": 0,
-        "FeeAmount": 0.0,
+        "FeeAmount": 0,
         "Quantity": 0,
         "Store": 0,
-        "TotalFeeAmount": 0.0,
-        "FeeRate": 0.0,
-        "ShippingTax": 0.0,
-        "TaxRate": 0.0,
-        "TaxAmount": 0.0,
-        "TaxId": 0.0,
+        "TotalFeeAmount": 0,
+        "FeeRate": 0,
+        "ShippingTax": 0,
+        "TaxRate": 0,
+        "TaxAmount": 0,
+        "TaxId": 0,
         "Upc": 0
     },
     "isContactLessDropoff": false,
     "cartSummary": {
-        "originalTotal": 59.2,
-        "subTotal": 43.2,
+        "originalTotal": 121.1,
+        "subTotal": 81.4,
         "applicableFees": {
-            "totalFees": 0.0,
-            "totalTaxOnTaxableFees": 0.0,
+            "totalFees": 0,
+            "totalTaxOnTaxableFees": 0,
             "fees": []
         },
-        "shippingCost": 0.0,
-        "deliveryTip": 0.0,
-        "tax": 2.93,
-        "total": 46.13
+        "shippingCost": 0,
+        "deliveryTip": 0,
+        "tax": 7.19,
+        "total": 88.59
     },
     "deliveryTipSchedule": [
         {
@@ -650,6 +892,6 @@
         }
     ],
     "deliverySpeedId": "0",
-    "deliverySpeedFeeAmount": 0.0,
+    "deliverySpeedFeeAmount": 0,
     "upc": 0
 }

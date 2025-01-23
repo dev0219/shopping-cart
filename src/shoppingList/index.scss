@@ -4,17 +4,19 @@
   --font-family: 'Poppins', sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
+// * {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+//   
+// }
 
-body {
-  font-family: var(--font-family);
-  background-color: #f9f8f8;
-}
+// body {
+//   font-family: var(--font-family);
+//   background-color: #f9f8f8;
+//   box-sizing: border-box;
+
+// }
 
 
 
@@ -155,7 +157,9 @@ section {
   text-decoration: none;
   cursor: pointer;
 }
-
+ul {
+  padding: 0;
+}
 ul li {
   list-style: none;
 }
@@ -170,13 +174,13 @@ input[type="checkbox"] {
 }
 
 .shopping-list-summary {
-  margin-top: 20px;
+  margin-top: 16px;
   width: 100%;
 }
 
 .dg-shopping-list {
   width: 100%;
-  padding: 3%; 
+  // padding: 3%; 
   max-width: 1140px;
   display: block;
   justify-content: center;
@@ -209,7 +213,6 @@ input[type="checkbox"] {
   }
 
   .shopping-list-summary {
-    margin-top: 0px;
     width: 30%;
   }
 }
@@ -396,7 +399,7 @@ input[type="checkbox"] {
   background: #fff;
   border: 1px solid #e4e4e4;
   padding: 12px;
-  width: 100%;
+  max-width: 100%;
 }
 
 .dg-shopping-list .shopping-list-item__wrapper {
@@ -443,7 +446,7 @@ input[type="checkbox"] {
   height: 48px;
   line-height: 22px;
   padding: 12px;
-  width: 100%;
+  // width: 100%;
 }
 
 .dg-shopping-list .shopping-list-item__deals-available-toggle {
@@ -462,7 +465,7 @@ input[type="checkbox"] {
   height: 48px;
   line-height: 22px;
   padding: 12px;
-  width: 100%;
+  // width: 100%;
 }
 
 .dg-shopping-list .shopping-list-item__deals-applied-toggle-label,
