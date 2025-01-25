@@ -62,19 +62,20 @@ const index = ({text}:any) => {
   }, [])
 
   return (
-    <div style={{padding: '5% 20%'}}>
+    <div className='dg-product-card__body'>
       <div className='dg-product-card__sponsored-header-title'><hr></hr><h2> {text}</h2><hr></hr></div>
       
       {products.length > 0 &&
         <Splide options={{
-          rewind: true, 
-          type: 'loop',
+          rewind: false, 
+          type: 'slide',
           perPage: 4,
           perMove: 1,
           pagination:false,
           breakpoints: {
             640: {
-              perPage: 1
+              perPage: 2,
+              pagination: true,
             }
           }
         }} aria-label="React Splide Example">

@@ -13,8 +13,8 @@ const index = ({ text }: any) => {
   const [products, setProducts] = useState(SponsoredStaticData.placements[0].products)
   const [productsCartLst, setProductsCartLst] = useState(productList.products);
 
-  const [largeImage, setLargeImage] = useState(true)
-  const [imageText, setImageText] = useState(false)
+  const [largeImage, setLargeImage] = useState(false)
+  const [imageText, setImageText] = useState(true)
   const [smallImage, setSmallImage] = useState(false)
 
   const addToList = (pro: any) => {
@@ -66,31 +66,60 @@ const index = ({ text }: any) => {
   }, [])
 
   return (
-    <div style={{ padding: '5% 20%' }}>
+    <div className='dg-product-card__body'>
       <div className='dg-product-card__sponsored-header-title'><hr></hr><h2> {text}</h2><hr></hr></div>
-
+      {largeImage && <div className="dg-product-card__large-image dg-product-card__mobile-v">
+        <div>
+          <img style={{ width: '300px' }} src='https://www.dollargeneral.com/content/dam/dg/assets/homepage/by-fiscal-year/2025/week-51/web/January_CCFMedicineCabinet_Square.png' />
+        </div>
+      </div>}
+      {imageText && <div className="dg-product-card__image-text dg-product-card__mobile-v">
+        <div className='dg-product-card__image-text__body'>
+          <img style={{ width: '150px' }} src='https://www.dollargeneral.com/content/dam/dg/assets/homepage/by-fiscal-year/2025/week-51/web/January_CCFMedicineCabinet_Square.png' />
+          <div className='dg-product-card__heading-line'>
+            <p className='dg-product-card__heading-line__title'>Heading line here</p> <br />
+            <p className='dg-product-card__heading-line__description'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+          </div>
+        </div>
+      </div>}
       {products.length > 0 &&
         <Splide options={{
-          rewind: true,
-          type: 'loop',
+          rewind: false,
+          type: 'slide',
           perPage: 5,
           perMove: 1,
           pagination: false,
           breakpoints: {
             640: {
-              perPage: 1
+              perPage: 2,
+              pagination: true,
             }
           }
         }} aria-label="React Splide Example">
-          {largeImage && <SplideSlide className="dg-product-card__large-image">
+          {largeImage && <SplideSlide className="dg-product-card__large-image dg-product-card__desktop-v">
             <div>
               <img style={{ width: '-webkit-fill-available' }} src='https://www.dollargeneral.com/content/dam/dg/assets/homepage/by-fiscal-year/2025/week-51/web/January_CCFMedicineCabinet_Square.png' />
+            </div>
+          </SplideSlide>}
+          {imageText && <SplideSlide className="dg-product-card__image-text dg-product-card__desktop-v">
+            <div className='dg-product-card__image-text__body'>
+              <img style={{ width: '200px' }} src='https://www.dollargeneral.com/content/dam/dg/assets/homepage/by-fiscal-year/2025/week-51/web/January_CCFMedicineCabinet_Square.png' />
+              <div className='dg-product-card__heading-line'>
+                <p className='dg-product-card__heading-line__title'>Heading line here</p> <br />
+                <p className='dg-product-card__heading-line__description'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+              </div>
+            </div>
+          </SplideSlide>}
+          {smallImage && <SplideSlide className="dg-product-card__small-image">
+            <div>
+              <img style={{ width: '-webkit-fill-available' }} src='https://www.dollargeneral.com/content/dam/dg/assets/homepage/by-fiscal-year/2025/week-51/web/January_CCFMedicineCabinet_Square.png' />
+
             </div>
           </SplideSlide>}
           {products.map((pro: any, index: any) => {
             return (
               <SplideSlide key={index}>
-                <div className="delivery-product-tile dg-product-card" data-product-upc={pro.upc} data-product-detail-page-path={"p/grown-in-idaho-crispy-potato-puffs-oz-bag/" + pro.upc} data-is-sellable={pro.isSellable} data-is-item-shippable={pro.isDeliverable} data-is-dgpickup-eligible={pro.isBopisEligible} data-state="small-card" data-pickup-deals-status={pro.dealsStatus} data-pickup-price={"$" + pro.finalPrice}>
+                <div className="delivery-product-tile dg-product-card dg-product-card__image" data-product-upc={pro.upc} data-product-detail-page-path={"p/grown-in-idaho-crispy-potato-puffs-oz-bag/" + pro.upc} data-is-sellable={pro.isSellable} data-is-item-shippable={pro.isDeliverable} data-is-dgpickup-eligible={pro.isBopisEligible} data-state="small-card" data-pickup-deals-status={pro.dealsStatus} data-pickup-price={"$" + pro.finalPrice}>
                   <div aria-label="DG Product Card Details" className="dg-product-card__navigation-link" >
                     <div className="dg-product-card__product-image product-card__image-container">
                       <img className="product-card__image" alt="Grown in Idaho Crispy Potato Puffs, 28 oz Bag" loading="lazy" src={pro.image} />
