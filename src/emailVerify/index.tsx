@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./index.scss"; // Importing the SCSS file
+import "./index.scss";
 
 const Index = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +11,6 @@ const Index = () => {
     const [oldemail, setOldEmail] = useState("shaun@hotmail.com");
     const [newemail, setNewEmail] = useState("shaun@hotmail.com");
     const openModal = () => setIsOpen(true);
-    const closeModal = () => setIsOpen(false);
 
     const openChangeEmailModal = () => {
         setIsChangeEmailModalOpen(true);
@@ -40,19 +39,18 @@ const Index = () => {
     }
 
     const CheckMyInboxHandler = () => {
-
+        console.log("Check My Inbox")
     }
 
-    const previousHanldler = () => { }
+    const previousHanldler = () => { 
+        console.log("Previous")
+    }
 
     return (
         <div className="email-verify-container">
-            {/* Button to open the main modal */}
             <button className="email-verify-open-button" onClick={openModal}>
                 Open Email Verify Modal
             </button>
-
-            {/* Main Email Verification Modal */}
             {isOpen && (
                 <div className={"email-verify-modal__overlay " + (isVerfied ? "email-verify-modal__overlay__verified" : "")}>
                     <div className="email-verify-modal__content">
@@ -141,7 +139,7 @@ const Index = () => {
                         </button>}
                         {isCodeVerfication && !isVerfied && <button
                             className={"email-verify-modal__send_verification-button " + (code.length < 6 ? "btn_disabled" : "")}
-                            onClick={() => ContinueHandler()}
+                            onClick={() => ContinueHandler()} disabled={code.length < 6}
                         >
                             Continue
                         </button>}
